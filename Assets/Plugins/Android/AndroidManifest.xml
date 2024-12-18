@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.game.ndsupersdk" >
+
+    <!-- 通用权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    
+    <application
+        android:name="com.game.ndsupersdk.NDSApplication"
+        android:largeHeap="true"
+        android:usesCleartextTraffic="true"
+        tools:ignore="MissingTvBanner" 
+		android:theme="@android:style/Theme.Holo.Light.DarkActionBar" >
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.game.ndsupersdk.gameActivity.MainActivity"
+            android:exported="true"
+            android:hardwareAccelerated="false"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="${applicationId}.action.fcm.launch"/> <!--FCM推送功能需要配置-->
+            </intent-filter>
+
+            <meta-data
+                android:name="unityplayer.UnityActivity"
+                android:value="true" />
+        </activity>
+
+        <!--FCM推送需要配置-->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id" android:value="default" /><!-- 推送渠道，默认填写 default-->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@drawable/ic_notification" /><!-- 推送通知的 logo，logo 要求透明背景和白色图片-->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color" android:resource="@color/colorAccent" /><!-- 推送通知栏的背景色-->
+
+        <!-- 全面屏配置支持 -->
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.6" />
+        <meta-data
+            android:name="android.min_aspect"
+            android:value="1.0" />
+        <!-- HUAWEI全面屏使用刘海区 -->
+        <meta-data
+            android:name="android.notch_support"
+            android:value="true" />
+        <!-- MIUI全面屏使用刘海区 -->
+        <meta-data
+            android:name="notch.config"
+            android:value="portrait|landscape" />
+
+        <!--facebook分享功能需要添加这个配置-->
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider1125397134929265"
+            android:exported="true" />
+
+
+    </application>
+	
+
+
+</manifest>

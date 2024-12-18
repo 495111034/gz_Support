@@ -1,0 +1,459 @@
+﻿
+
+namespace GameLogic
+{
+    //枚举ID已经写了的不可修改，按顺序即可
+    // 注释// 一定要写，用于在编辑器显示配置，如不需要在编辑器显示就不写注释，或者加#号
+    public class E_RedPointType
+    {
+        //道具相关魂卡相关
+        public const int init_update = 1;
+        public const int bag_new_item = 2; //背包获得新道具
+        public const int bag_full = 3;  //背包满
+        public const int equip_strong_target = 4; //可以进行装备强化目标激活
+        public const int has_chip_synthesis = 5; //有碎片可合包括魂卡
+        public const int has_hight_unidentity_sale = 6; //有橙色以上未鉴定装备可上架
+        public const int has_better_equip_dress = 7; //有更好的装备可穿戴
+        public const int has_equip_can_qianghua = 8; //有装备可强化
+        public const int has_equip_can_rebuild = 9; //有装备可重铸
+        public const int soul_card_high_capacity = 10; //获得高于已镶嵌评分的魂卡
+        public const int soul_card_open_hunpan = 11; //开启魂卡系统新魂盘
+        public const int soul_card_xinpian_can_setup = 12; //有工坊芯片可以安装
+        public const int soul_card_dress = 13; //有魂卡可镶嵌
+        public const int soul_card_qianghua = 14; //有魂卡可强化
+        public const int has_soul_card_synthesis = 15; //有魂卡碎片可合成
+        public const int soul_card_xinpian_can_open = 16; //有工坊芯片可领取奖励
+        public const int soul_card_rebuild = 17; //有魂卡可重铸
+        public const int soul_card_pan_qianghua = 18; //有已镶嵌的魂卡可强化
+        public const int soul_card_pan_rebuild = 19; //有已镶嵌的魂卡可重铸
+        public const int equip_new_level_qianghua = 20; //有装备新等级可强化
+        public const int chat_appear_sort_active = 21; //聊天外观类型有可激活
+        public const int chat_appear_has_active = 22; //聊天外观id有可激活
+        public const int bag_new_equip = 23; //背包获得新装备
+        public const int equip_monsoul_can_use = 24; //有灵魂宝箱道具可使用
+        public const int soul_card_slot_unlock = 25; //有魂卡孔位可以解锁
+        public const int equip_end_level_qianghua = 26; //有装备当前等级可强化
+        public const int equip_qianghua_enter = 27; //装备强化入口特殊红点
+        public const int equip_daily_gift_use = 28; //有每日礼包可使用
+        public const int soul_card_page_2 = 29; //魂卡第二页有可操作的
+
+        //邮件相关
+        public const int mail_new = 50; //收到新邮件
+        public const int mail_menu_state = 51; //#邮件菜单状态
+        public const int mail_sys_cell = 52; //系统邮件有未读且可领
+        public const int mail_union_cell = 53; //公会邮件有未读且可领
+        public const int mail_havereward_cell = 54; //#每个邮件附件可领状态
+
+        //秘境挑战相关
+        public const int guaji_award_2_hour = 100;   //秘境挑战挂机奖励超过2小时
+        public const int guaji_award_24_hour = 101;  //秘境挑战挂机奖励超过24小时
+        public const int tollgate_chapter_award = 102;  //秘境挑战章节奖励可领
+        public const int tollgate_boss_award = 103;     //秘境挑战章节有BOSS奖励可领
+        public const int guaji_award_6_hour = 104;     //秘境挑战挂机奖励超过6小时
+        public const int tollgate_fight_capacity = 105;//当前战力可挑战秘境提示
+        public const int guaji_award_8_hour = 106;     //秘境挑战挂机奖励超过8小时
+
+        //队伍相关
+        public const int team_new_apply = 150;  //有新的申请入队信息
+        public const int team_has_apply = 151;  //有申请入队信息S
+        public const int team_ready_chat_icon_show = 152; //正在队伍准备进入玩法
+        public const int team_matching = 153; //队伍正在匹配中
+
+        //任务系统
+        public const int pet_event_choujiang = 160; //是否有抽奖次数
+        public const int pet_event_reward = 161; //英灵事件是否有完成奖励可领
+
+        // 坐骑相关
+        public const int exterior_outfit_weapon = 201; //武器
+        public const int exterior_outfit_clothing = 202; //服装
+        public const int exterior_outfit_wing = 203; //翅膀
+        public const int exterior_outfit_horse = 204; //坐骑
+        public const int exterior_outfit_headdress = 205; //头饰
+        public const int exterior_outfit_backornament = 206; //背饰
+        public const int exterior_outfit_pendants = 207; //挂饰
+        public const int exterior_outfit_hairstyle = 208; //发型
+        public const int exterior_outfit_footprint = 209; //足迹
+        public const int exterior_outfit_bubble = 210; //气泡
+
+        public const int exterior_outfit_make = 211; //时装裁缝
+        public const int exterior_outfit_raffle_free_num = 215; //时装抽奖-免费次数
+        public const int exterior_outfit_raffle_ten = 216; //时装抽奖-抽奖券数量>=10
+        public const int exterior_fashion_reward_wait = 220; //时尚奖励待领取
+
+
+        // 英灵相关
+        public const int pet_system_upgrade = 301;//英灵系统 - 可升级
+        public const int pet_system_tupo = 302;//英灵系统 - 可突破
+        public const int pet_system_wash_effect = 303; // 英灵系统 - 洗髓
+        public const int pet_system_wash_effect_with_num = 313; // 英灵系统 - 洗髓数量
+        public const int pet_system_upstar = 304; // 英灵系统 - 升星
+        public const int pet_system_shangzhen = 305; // 英灵上阵 - 可上阵
+        public const int pet_system_hunji = 306; //英灵-魂技槽为空且有魂技可镶嵌时
+        public const int pet_system_stronger_hunji = 307; //英灵-有评分更高的魂技
+        public const int pet_system_hunji_caowei_open = 309;//英灵-可解锁魂技槽时
+        public const int pet_system_zhenwei_can_open = 308;//有可开启的阵位
+
+        public const int pet_summon_root = 350; //英灵召唤
+        public const int pet_summon_free_num = 351; //英灵召唤-存在免费次数
+        public const int pet_summon_accumulate = 352; //英灵召唤-累积召唤奖励宝箱可领取
+        public const int pet_summon_atlas = 353; //英灵召唤-图鉴可激活/升级
+        public const int pet_summon_common_enough = 354; //英灵召唤-普通召唤-唤灵源晶数量满足
+        public const int pet_summon_special_enough = 355; //英灵召唤-星界之门-材料满足五连
+
+        //头衔系统
+        public const int title_label_has_reward = 500; //头衔系统
+        public const int title_label_has_upgrade = 501; //头衔系统-可晋升
+
+        //学院委托
+        public const int delegate_has_award_get = 550; //学院委托-奖励待领取
+        public const int delegate_has_task_wait = 551; //学院委托-每日可接取学院委托任务，红点查看一次后消失，每次登录游戏都会显示红点提示；
+
+        //商船贸易相关
+        public const int merchantman_help_refsh_req = 600; //接收到其它玩家发出请求帮刷
+        public const int merchantman_help_goods_req = 601; //接收到其它玩家发出求助信息
+        public const int merchantman_have_refsh_count = 602; //订单有可刷新次数
+        public const int merchantman_accumulate_reward = 603; //完成x次商船贸易达成奖励可领
+        public const int merchantman_order_quality_up = 604; //订单被刷新到更高品质
+
+        //交易系统相关
+        public const int trade_cantake_normal = 650; //有奖励领取物品-道具交易
+        public const int trade_cantake_gold = 651; //有奖励领取-金币交易
+        public const int trade_focus = 652; //关注界面-普通
+        public const int trade_focus_pub = 653; //关注界面-公示
+
+        //商店系统相关
+        public const int shop_focus = 660; //有关注物品
+        public const int shop_price_zero = 661; //有可免费购买的商品
+
+        //兑换商店相关
+        public const int exchange_shop_can_buy_over = 670; // 剩余货币数量大于等于有超值标记的商品价格时
+
+        //黑市商店相关
+        public const int masket_shop_free_refresh = 690; //有可免费刷新的商品
+
+        // 英雄榜
+        public const int herorank_has_reward_wait = 700;//英雄榜-异度灾星-奖励待领取
+
+        // 转职
+        public const int transfer_stage_1 = 750;//阶段一 可领取奖励
+        public const int transfer_stage_2 = 751;//阶段二 可领取奖励
+        public const int transfer_stage_3 = 752;//阶段三 可领取奖励
+        public const int transfer_can_change = 753;//可转职
+
+
+
+        // 玩法相关 1000~
+        public const int activeentry_mainview = 1000; //主界面玩法入口
+        public const int activeentry_petchallenge_reset = 1050; //英灵试炼已重置
+        public const int activeentry_petchallenge_quickentry = 1051; //英灵试炼聊天栏上方快捷入口
+        public const int activeentry_petchallenge_treasure_reward = 1052; //英灵试炼-可领取层级宝箱
+        public const int activeentry_liveness_reward = 1061; //玩法活跃度奖励
+
+        //学院试炼
+        public const int college_test_award_get = 1300;//学院试炼可领取奖励
+        public const int college_test_all_award_get = 1301;//学院试炼可该学院最终奖励
+
+        //好友相关
+        public const int friend_new_apply = 1500;//请求加好友
+        public const int friend_new_chat = 1501;//有私聊
+        public const int friend_receive_gift = 1502; //接收到礼物
+
+        //竞技场
+        public const int arena_win_box = 1601;//竞技场可领取胜利宝箱
+        public const int arena_new_log = 1602;//竞技场有战斗新纪录
+        public const int arena_dan_reward = 1603;//竞技场有段位达成奖励
+        public const int arena_times_reward = 1604;//竞技场次数达成奖励
+
+        //技能相关
+        public const int life_divination = 1700;//占卜功能开放
+        public const int skill_has_point = 1701;//有待投入技能点时
+        public const int skill_can_upgrade = 1702;//技能可升级 已弃用2023.6.30--与1701功能重复   
+        public const int skill_can_exchange_point = 1703;//玩家资源可进行技能点兑换
+        public const int skill_new = 1704;//有新技能激活 已弃用2023.6.30--莫名其妙的功能玩不明白  
+        public const int skill_gang_changgui = 1705;//有常规社团技能可升级
+        public const int skill_gang_kezhi = 1706;//有克制社团技能可升级
+        public const int skill_gang_kangxing = 1707;//有抗性社团技能可升级
+
+        //魂技
+        public const int hunji_can_upgrade = 1800;//天启 有可升级的魂技
+        public const int hunji_can_active = 1801;//天启 有可激活的魂技
+        public const int hunji_can_active_monster = 1802;//天启 有可解析的灵魂
+
+
+        //社团
+        public const int gang_has_apply = 1900;//有社团申请信息
+        public const int gang_has_invite = 1901;//有社团邀请信息
+        public const int gang_has_merge = 1903;//有社团合并信息
+        public const int gang_has_mood_rewards = 1904;//有社团人气目标奖励可领取
+        public const int gang_has_task_rewards = 1905;//有社团周任务奖励可领取
+        public const int gang_has_daysignin_rewards = 1906;//有每日签到奖励可领取
+        public const int gang_has_week_rewards = 1907;//有每周分红可领取
+        public const int gang_has_build_speed = 1908;//有加速次数
+        public const int gang_has_build_upgrade = 1909;//有建筑可升级
+
+        //称号
+        public const int title_new = 2001;//有新称号激活
+
+        //王座联赛
+        public const int king_league_has_guess = 2100; //王座联赛有竞猜、观战可以参加
+        public const int king_league_dian_zan = 2101;  //王座联赛名人堂，点赞红点
+
+        //荣耀之颠
+        public const int the_pinnacle_acitve_over = 2150; //荣耀之颠结束副本中则提示
+        public const int the_pinnacle_POSSESSION = 2151; //荣耀之颠副本有战神附体
+        public const int the_pinnacle_palacehall = 2152; //荣耀之颠活动结束
+
+        //切磋
+        public const int qiecuo_has_info = 2200; //收到切磋信息
+
+        //在线礼包
+        public const int online_award = 2300; //可领取奖励
+
+        //调查问卷
+        public const int questionnaire_to_be_filled = 2400; //存在待填写的问卷
+        public const int questionnaire_has_reward = 2401; //存在待领取的问卷奖励
+
+        //福利礼包
+        public const int welfare_main_entry = 2450; //福利汇总
+        public const int welfare_sevenday_reward = 2451; //七天登录礼包
+        public const int welfare_level_reward = 2461; //等级礼包
+        public const int welfare_daily_signin = 2471; //每日签到
+        public const int welfare_month_card = 2481; //月卡
+        public const int welfare_diamondgift_tollgate = 2491; //钻石豪礼-秘境
+        public const int welfare_diamondgift_arena = 2492; //钻石豪礼-竞技场
+        public const int welfare_growgift_pet = 2501; //成长目标-英灵进化
+        public const int welfare_growgift_equip = 2502; //成长目标-装备
+        public const int welfare_growgift_soulcard = 2503; //成长目标-魂卡
+
+        //通关福利
+        public const int welfare_chaptergift_purchasable = 2511; //通关福利-可购买
+
+        //黑石宝地
+        public const int blackstone_main_entry = 2600;//黑石宝地入口红点
+        public const int blackstone_quick_entry = 2605;//黑石宝地聊天栏快捷入口红点
+
+        //赛马
+        public const int horse_race_interaction = 2700;//赛马比赛交互
+
+        //生活
+        public const int life_skill_collect = 2750;//生活技能采药
+        public const int life_skill_fishing = 2751;//生活技能钓鱼
+        public const int life_skill_medicine = 2752;//生活技能制药
+        public const int life_skill_food = 2753;//生活技能烹饪
+        public const int life_skill_practise_divination = 2754;//生活技能占卜
+
+        public const int ope_active_reward = 2800;//运营活动英雄录大项有奖励
+        public const int ope_active_child_reward = 2801;//运营活动英雄录子项有奖励
+        public const int ope_active_display_reward = 2802;//英雄录播报有奖励
+
+        //成就
+        public const int achievement_level_reward = 2850;//成就系统等级奖励待领取
+
+        //我要变强
+        public const int grow_strong_reward = 2900;//我要变强奖励待领取
+
+        //自动恢复
+        public const int auto_restore_potion_notice = 2950;//自动恢复装配中药水耗尽提醒
+        public const int auto_restore_wait_setslot = 2951;//自动恢复药水设置红点
+
+        //红包
+        public const int hongbao_guild_award = 3001;//社团红包奖励待领取，可发送
+
+        //诸神乐园
+        public const int ope_zhushen_award_wait = 3050;//诸神乐园奖励待领取
+        public const int ope_zhushen_award_first = 3051;//诸神乐园，首次进入游戏时提醒
+
+        //充值礼包
+        public const int recharge_gift_daily_free = 3110;//每日礼包免费
+        public const int recharge_gift_week_free = 3111;//每周礼包免费
+        public const int recharge_growfund_award = 3112;//成长基金奖励
+        public const int recharge_accumcharge_award = 3113;//累计充值奖励
+        public const int recharge_growfund_remind = 3114;//成长基金，每日上线提醒
+        public const int recharge_platinum_gift_reward = 3115;//白金礼包奖励待领取
+        public const int recharge_growfund_award_free = 3116;//成长基金免费类型奖励
+
+        public const int recharge_limited_gift_popup = 3130;//特殊限时特惠提醒
+        public const int recharge_limited_gift_normal = 3131;//普通限时特惠提醒
+
+        //通行证
+        public const int recharge_pass_reward = 3140;//通行证-奖励待领取
+        public const int recharge_pass_remind = 3141;//通行证-首次登录，升级通行证提醒
+        //首充
+        public const int first_recharge_reward = 3150;//首充-奖励待领取
+        public const int first_recharge_remind = 3151;//首充-每日提醒
+
+        //新生手册
+        public const int freshman_has_task_excute = 3200; //新生手册当天还有未完成的任务
+        public const int freshman_has_task_reward = 3201; //新生手册有任务完成奖励
+        public const int freshman_has_full_reward = 3202; //新生手册有全勤奖励可领
+        public const int freshman_has_score_reward = 3203; //新生手册有学分奖励可领
+        public const int freshman_has_menu_total = 3204; //新生手册课程页签总红点
+
+        //合成
+        public const int propcraft_category_commonequip = 3251;
+        public const int propcraft_category_pet = 3252;
+        public const int propcraft_category_soulcard = 3253;
+
+        //神降之临
+        public const int god_coming_gift_lei = 3301;//神之降临礼包_雷神_日常提醒
+        public const int god_coming_gift_mao = 3302;//神之降临礼包_猫神
+        public const int god_coming_can_summon_lei = 3303;//雷神可召唤
+        public const int god_coming_can_summon_mao = 3304;//猫神可召唤
+        public const int god_coming_video_lei = 3305;//雷神有未看视频
+        public const int god_coming_video_mao = 3306;//猫神有未看视频
+        public const int god_coming_jindu_lei = 3307;//雷神有进度奖励可领取
+        public const int god_coming_jindu_mao = 3308;//猫神有进度奖励可领取
+        public const int god_coming_can_upstar_lei = 3309;//雷神可升星
+        public const int god_coming_can_upstar_mao = 3310;//猫神可升星
+        public const int god_coming_gift_zhan = 3311;//神之降临礼包_战神
+        public const int god_coming_can_summon_zhan = 3312;//战神可召唤
+        public const int god_coming_video_zhan = 3313;//战神有未看视频
+        public const int god_coming_jindu_zhan = 3314;//战神有进度奖励可领取
+        public const int god_coming_can_upstar_zhan = 3315;//战神可升星
+
+        //神之契约
+        public const int god_contract_hastimes = 3321;//还有契约次数
+        public const int god_contract_luckman = 3322;//有中签者可查看
+
+        //英雄挑战
+        public const int herochallenge_reward = 3350; //英雄挑战有奖励可领
+
+        //学院之旅
+        public const int collegejour_trainpoint = 3401;//训练计划-有训练点达到奖励可领
+        public const int collegejour_dailytask = 3402;//训练计划-有每日任务奖励可领
+        public const int collegejour_activetask = 3403;//训练计划-有活动任务奖励可领
+        public const int collegejour_zhuanpan = 3404;//转盘-拥有抽取次数
+        public const int collegejour_libao_free = 3405;//专享礼包-可领取免费礼包
+        public const int collegejour_look = 3406;//专享礼包-看一眼付费礼包
+
+        //充值好礼
+        public const int accumgift_daily_remind = 3501; //充值好礼-每日提醒
+        public const int accumgift_reward_wait = 3502; //充值好礼-奖励待领取
+        public const int luckybox_daily_remind = 3511; //幸运魔盒-每日提醒
+        public const int luckybox_reward_wait = 3512; //幸运魔盒-奖励待领取
+        public const int signgift_daily_remind = 3521; //签到特权-每日提醒
+        public const int signgift_reward_wait = 3522; //签到特权-奖励待领取
+
+
+        //资源找回
+        public const int has_resource_can_recovery = 3601; //登陆是否有奖励可找回
+
+
+        //探宝屋
+        public const int hunt_has_once_choujiang = 3650; //抽奖道具大于0
+        public const int hunt_has_more_choujiang = 3651; //抽奖道具大于5
+
+        //报名
+        public const int signup_has_active_wait = 3661; //存在待报名活动
+
+        //下载礼
+        public const int download_gift_daily_remind = 3671; //下载礼-每日提醒
+
+        //社团争霸
+        public const int gangwar_score_reward_wait = 3681; //社团争霸-待认领的积分宝箱
+
+        //藏宝阁
+        public const int cangbaoge_lottery_times = 3690;//社团藏宝阁抽奖次数
+
+        //魂卡福利
+        public const int soulcard_weal_cantake_award = 3700;//魂卡福利可领取奖励
+        public const int soulcard_weal_cantake_task = 3701;//魂卡福利可领取任务奖励
+
+        //身份系统
+        public const int shenfen_skill_open_or_upgrade = 3710;//身份技能可学习/升级
+        public const int shenfen_collect_set_tool = 3711;//可装配工具
+        public const int shenfen_tujian_open_1 = 3712;//有可激活图鉴-发明家/工具
+        public const int shenfen_tujian_open_2 = 3713;//有可激活图鉴-美食家/食物
+        public const int shenfen_tujian_open_3 = 3714;//有可激活图鉴-炼金士/药物
+
+        //世界之门
+        public const int worldgate_progress_reward = 3730;//全服进度奖励
+        public const int worldgate_donate_reward = 3731;//每日捐献奖励
+
+        //目标活动-新手英灵目标获得
+        public const int target_act_id_pet_reward = 3800;//目标活动有奖励可领
+
+        //月卡抽奖红点
+        public const int month_card_can_lottery = 3810; //可以进行月卡抽奖
+
+        //神灵岛
+        public const int divineisland_enter_active = 3850; //神灵岛
+        public const int divineisland_can_get_point = 3851; //可领取神灵岛签约点数
+
+        //砸金蛋
+        public const int gold_egg_hint_times = 3900; //砸金蛋次数
+        public const int gold_egg_hint_times_award = 3901; //砸金蛋次数累计奖励
+
+        //珍宝阁
+        public const int rarecurios_daily_remind = 3950; //珍宝阁每日提醒
+
+        //守护灵契约
+        public const int guardianfund_award_wait = 3960;//守护灵契约奖励
+        public const int guardianfund_daily_remind = 3961;//守护灵契约，每日上线提醒
+
+        //守护灵首充
+        public const int guardianfund_shouchong_award = 3970;//守护灵首充有奖励可领取
+        public const int guardianfund_shouchong_daily_remind = 3971;//守护灵首充，每日上线提醒
+
+        //守护灵每日超值礼包
+        public const int guardianfund_chaozhi_award = 3980;//守护灵每日超值礼包有奖励可领取
+
+        //主题活动
+        public const int themeact_cook_xiaoxiaole_reward = 4000;//美食消消乐奖励可领
+        public const int themeact_cook_foodmake_target_set = 4011;//美食制作目标设置提醒
+        public const int themeact_cook_foodmake_accum_reward = 4012;//美食制作累计奖励
+        public const int themeact_cook_foodmake_enough_mats = 4013;//美食制作材料足够合成
+        
+
+        public const int themeact_treasure_daily_recharge_enough = 4021;//寻宝，每日累充奖励可领取/购买
+        public const int themeact_treasure_pintu_active = 4022;//寻宝拼图有可激活
+        public const int themeact_treasure_pintu_reward = 4023;//寻宝拼图有奖励可领
+        public const int themeact_treasure_pintu_give = 4024;//寻宝拼图有可赠送次数条件
+        public const int themeact_treasure_wheel_lottery = 4025;//宝藏转盘
+        public const int themeact_treasure_egg_lottery_reward = 4026;//扭蛋有奖励可领
+        public const int themeact_treasure_egg_lottery_free = 4027;//扭蛋免费次数
+        public const int themeact_treasure_egg_lottery_5_times = 4028;//扭蛋有超过5次数时
+
+        public const int themeact_holiday_zhuanpan_can_chou = 4031;//度假狂欢转盘抽奖可抽
+        public const int themeact_holiday_zhuanpan_reward = 4032;//度假狂欢转盘抽奖有奖励可领
+        public const int themeact_holiday_wish_can = 4033;//度假狂欢派对许愿-可许愿
+        public const int themeact_holiday_wish_zengli = 4034;//度假狂欢派对许愿-可赠礼
+        public const int themeact_holiday_daily_recharge_enough = 4035;//度假，每日累充奖励可领取/购买
+        public const int themeact_holiday_every_gift_award = 4036;//度假，每日礼包 活跃度奖励可领取
+        public const int themeact_holiday_zuanshi_zhuanpan_one = 4037;//度假，钻石转盘 可抽单次时
+        public const int themeact_holiday_zuanshi_zhuanpan_ten = 4038;//度假，钻石转盘 可抽十次时
+        public const int themeact_holiday_zuanshi_zhuanpan_ten_half_price = 4039;//度假，钻石转盘 可抽十次半价时
+        public const int themeact_holiday_zuanshi_zhuanpan_times_award = 4040;//度假，钻石转盘 可领累计次数奖励时
+        public const int themeact_holiday_wish_getcount = 4041;//度假狂欢派对许愿-有可领取次数
+
+        //神弃之地
+        public const int abandoned_stage_reward_canlingqu = 4050;//神弃之地，阶段奖励可领
+        public const int abandoned_godmo_reward_canlingqu = 4051;//神弃之地，魔神宝箱奖励可领
+        public const int abandoned_gongji_reward_canlingqu = 4052;//神弃之地，功绩宝箱奖励可领
+        public const int abandoned_liekill_reward_canlingqu = 4053;//神弃之地，猎杀宝箱奖励可领
+
+        //三十天签到
+        public const int thirtyday_sign_daily_remind = 4070;//三十天签到，每日提醒
+        public const int thirtyday_sign_reward_canget = 4071;//三十天奖励可领取
+
+        //武道大会
+        public const int wudao_times_award = 4080; //武道大会-参与次数奖励
+
+        //神器
+        public const int god_weapon_can_unlock = 4090; //神器-可解锁
+        public const int god_weapon_can_up_enery_lv = 4091; //神器-可锻造
+
+        //小精灵
+        public const int pokemon_level_box_award = 5010; //小精灵-等级礼包待领取
+        public const int pokemon_feed_has_food = 5011; //小精灵-可喂养自己的小精灵
+        public const int pokemon_feed_has_award_wait = 5012; //小精灵-喂养宝箱待领取
+        public const int pokemon_assist_can_upgrade = 5013; //小精灵-助手系统可升级
+        public const int pokemon_skin_can_active = 5014; //小精灵-皮肤可激活
+
+        //英灵皮肤
+        public const int pet_skin_can_active = 5020; //英灵皮肤-可激活
+
+        //守护灵
+        public const int guardian_can_forge_equip = 5030;//守护灵-装备可打造
+    }
+}

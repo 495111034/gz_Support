@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - nav
   layers:
   - Default
   - TransparentFX
@@ -13,30 +14,30 @@ TagManager:
   - UI
   - 
   - 
+  - Player
+  - Scenario
+  - Trigger
+  - SceneBaseObj
+  - Monster
+  - UIEffect
+  - Terrain
+  - RoleEffect
+  - SceneEffect
+  - NPC
+  - Weapon
+  - CameraCollider
+  - Item
+  - SceneInstance
+  - BackGround
+  - FightEffect
+  - MainRole
+  - Camera
+  - Shadow
+  - Pet
+  - MainPanel
+  - Mirror
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Hidden
   m_SortingLayers:
   - name: Default
     uniqueID: 0

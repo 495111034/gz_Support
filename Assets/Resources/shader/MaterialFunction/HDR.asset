@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b2425a2284af743826c689403a4924, type: 3}
+  m_Name: HDR
+  m_EditorClassIdentifier: 
+  m_functionInfo: "// Made with Amplify Shader Editor\n// Available at the Unity Asset
+    Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=15301\n7;78;1455;955;855.3722;309.1456;1.024605;True;False\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;19;832.517,-1.671921;Float;False;3;3;0;COLOR;0,0,0,0;False;1;FLOAT;0;False;2;FLOAT;0;False;1;COLOR;0\nNode;AmplifyShaderEditor.FresnelNode;17;173.661,332.6062;Float;False;Tangent;4;0;FLOAT3;0,0,1;False;1;FLOAT;0;False;2;FLOAT;1;False;3;FLOAT;5;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;24;81.03534,-69.2326;Float;False;HDRcolor
+    Input;5;0;False;1;0;COLOR;0,0,0,0;False;1;COLOR;0\nNode;AmplifyShaderEditor.RangedFloatNode;15;-172.7979,516.7549;Half;False;Constant;_HDRFloat1;HDR
+    Float 1;11;0;Create;True;0;0;False;0;0.2;0.2;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.Vector3Node;14;-210.0065,318.3854;Half;False;Constant;_HDRVector0;HDR
+    Vector 0;8;0;Create;True;0;0;False;0;0,0.5,1;0,0.5,1;0;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3\nNode;AmplifyShaderEditor.FunctionNode;23;233.5208,631.6734;Float;False;Depth;-1;;3;140f52282d229554aacf1bdc227b5162;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionOutput;0;1219.451,-64.56113;Float;False;True;Output;0;False;1;0;COLOR;0,0,0,0;False;1;COLOR;0\nWireConnection;19;0;24;0\nWireConnection;19;1;17;0\nWireConnection;19;2;23;0\nWireConnection;17;0;14;0\nWireConnection;17;2;15;0\nWireConnection;0;0;19;0\nASEEND*/\n//CHKSM=6A9658A906875D42E4CC6B650818F6A64BAC2BA9"
+  m_functionName: 
+  m_description: 
+  m_additionalIncludes:
+    m_additionalIncludes: []
+    m_outsideIncludes: []
+  m_additionalPragmas:
+    m_additionalPragmas: []
+    m_outsidePragmas: []
+  m_nodeCategory: 3
+  m_customNodeCategory: 
+  m_previewPosition: 0

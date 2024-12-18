@@ -1,0 +1,1339 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 478585fd7c500e54582befa350a2fecf, type: 3}
+  m_Name: SceneTextureName
+  m_EditorClassIdentifier: 
+  serializedNodes: []
+  nodes:
+  - rid: 0
+  - rid: 1
+  - rid: 3
+  - rid: 5
+  - rid: 6
+  - rid: 8
+  - rid: 10
+  - rid: 8250136733152444422
+  - rid: 8250136733152444423
+  - rid: 8250136733152444424
+  - rid: 8250136733152444425
+  - rid: 8250136733152444426
+  - rid: 8250136733152444427
+  - rid: 8250136733152444428
+  - rid: 8250136733152444429
+  - rid: 8250136733152444430
+  - rid: 8250136733152444431
+  - rid: 8250136733152444432
+  - rid: 8250136733152444435
+  - rid: 8250136733152444436
+  - rid: 8250136733152444437
+  - rid: 8250136733152444438
+  - rid: 8250136733152444439
+  - rid: 8250136733152444440
+  - rid: 8250136733152444449
+  - rid: 8250136733152444450
+  - rid: 8250136733152444451
+  - rid: 8250136733152444452
+  - rid: 8250136733152444453
+  - rid: 8250136733152444454
+  - rid: 8250136733152444455
+  - rid: 8250136733152444456
+  - rid: 8250136733152444457
+  - rid: 8250136733152444458
+  - rid: 8250136733152444459
+  - rid: 8250136733152444460
+  - rid: 8250136733152444461
+  - rid: 8250136733152444462
+  - rid: 8250136733152444463
+  - rid: 8250136733152444464
+  - rid: 8250136733152444465
+  - rid: 8250136733152444466
+  - rid: 8250136737226162192
+  - rid: 8250136737226162193
+  edges:
+  - GUID: 8faf1b50-a6e2-4618-8e58-50b1020dadb0
+    owner: {fileID: 11400000}
+    inputNodeGUID: fec96f75-0379-4505-85b9-847ce789f6dd
+    outputNodeGUID: 84b7e274-050a-4e39-a2be-42c4956a8ccd
+    inputFieldName: flowIn
+    outputFieldName: split
+    inputPortIdentifier: 
+    outputPortIdentifier: 4
+  - GUID: 0347db56-d1e4-4e69-99c5-8b7cb5138e40
+    owner: {fileID: 11400000}
+    inputNodeGUID: 604f894c-7bed-4aa7-82f6-ec529807c949
+    outputNodeGUID: fec96f75-0379-4505-85b9-847ce789f6dd
+    inputFieldName: flowIn
+    outputFieldName: flowOut
+    inputPortIdentifier: 
+    outputPortIdentifier: flowOut_0
+  - GUID: 52d26019-cc25-4ccc-a7bd-5c1a090c0061
+    owner: {fileID: 11400000}
+    inputNodeGUID: 3780da74-f757-440d-ae5f-1e83ab877a85
+    outputNodeGUID: 604f894c-7bed-4aa7-82f6-ec529807c949
+    inputFieldName: flowIn
+    outputFieldName: flowOut
+    inputPortIdentifier: 
+    outputPortIdentifier: flowOut_4
+  - GUID: 7226748d-9ad7-4cf1-bcfd-d41c206fdaac
+    owner: {fileID: 11400000}
+    inputNodeGUID: e5cbd451-b391-48c3-a609-83c4f70ff9fe
+    outputNodeGUID: fec96f75-0379-4505-85b9-847ce789f6dd
+    inputFieldName: flowIn
+    outputFieldName: flowOut
+    inputPortIdentifier: 
+    outputPortIdentifier: flowOut_1
+  - GUID: 081753b5-c763-4da8-afce-1fffe86c43f6
+    owner: {fileID: 11400000}
+    inputNodeGUID: a3de5f50-76ef-43e9-bb62-1f1dd0f45c44
+    outputNodeGUID: 732afa20-85bb-4916-b3c7-7a6aca4ec572
+    inputFieldName: inputs
+    outputFieldName: value
+    inputPortIdentifier: 928c0663-4c67-4c14-a11f-b23c79cbe529
+    outputPortIdentifier: 
+  - GUID: 05516311-f607-4fc8-aeba-e4bee8e2d605
+    owner: {fileID: 11400000}
+    inputNodeGUID: a3de5f50-76ef-43e9-bb62-1f1dd0f45c44
+    outputNodeGUID: c4983eb1-ea68-45c4-8c00-3878041e944b
+    inputFieldName: inputs
+    outputFieldName: value
+    inputPortIdentifier: 4c88aeec-083b-41a0-94cc-f9a8732546fe
+    outputPortIdentifier: 
+  - GUID: 3e7367a6-9290-4fed-9172-14ff550e3016
+    owner: {fileID: 11400000}
+    inputNodeGUID: a3de5f50-76ef-43e9-bb62-1f1dd0f45c44
+    outputNodeGUID: 25bb821e-58d9-48f3-951a-ed8c051f08ea
+    inputFieldName: inputs
+    outputFieldName: value
+    inputPortIdentifier: 4ebead9c-67da-463d-81fe-037286eea517
+    outputPortIdentifier: 
+  - GUID: 6ff5adfe-004a-47c5-863c-1a0d23297307
+    owner: {fileID: 11400000}
+    inputNodeGUID: e32d146a-9538-46b1-b275-e6336d6603e2
+    outputNodeGUID: a3de5f50-76ef-43e9-bb62-1f1dd0f45c44
+    inputFieldName: flowIn
+    outputFieldName: flowOut
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 4c82894b-da84-497c-9246-8ddf6d79b9d7
+    owner: {fileID: 11400000}
+    inputNodeGUID: e32d146a-9538-46b1-b275-e6336d6603e2
+    outputNodeGUID: 732afa20-85bb-4916-b3c7-7a6aca4ec572
+    inputFieldName: contextName
+    outputFieldName: value
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 3ff02027-015b-4fe8-9368-de904f1ad346
+    owner: {fileID: 11400000}
+    inputNodeGUID: a3de5f50-76ef-43e9-bb62-1f1dd0f45c44
+    outputNodeGUID: 204e1f54-33f9-4c4e-a4ce-7236df77bd79
+    inputFieldName: inputs
+    outputFieldName: value
+    inputPortIdentifier: c30ebe57-0b24-429f-bd21-134ced324396
+    outputPortIdentifier: 
+  - GUID: 3ef9f706-28ee-4f27-92e9-91b68c6879f0
+    owner: {fileID: 11400000}
+    inputNodeGUID: a3de5f50-76ef-43e9-bb62-1f1dd0f45c44
+    outputNodeGUID: 604f894c-7bed-4aa7-82f6-ec529807c949
+    inputFieldName: flowIn
+    outputFieldName: flowOut
+    inputPortIdentifier: 
+    outputPortIdentifier: flowOut_1
+  - GUID: d49d7c26-6add-40d4-9e64-2666ea25b330
+    owner: {fileID: 11400000}
+    inputNodeGUID: 29262feb-255f-42f9-a71c-c48fda319301
+    outputNodeGUID: a3de5f50-76ef-43e9-bb62-1f1dd0f45c44
+    inputFieldName: flowIn
+    outputFieldName: flowOut
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 81a4029e-9d5d-41a1-ad58-1a81122d1562
+    owner: {fileID: 11400000}
+    inputNodeGUID: 29262feb-255f-42f9-a71c-c48fda319301
+    outputNodeGUID: 204e1f54-33f9-4c4e-a4ce-7236df77bd79
+    inputFieldName: contextName
+    outputFieldName: value
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 99dfc230-ef71-4265-ad7d-00fbef583e60
+    owner: {fileID: 11400000}
+    inputNodeGUID: 024c4d08-94fa-4eab-9ae4-f8d0d15c3b81
+    outputNodeGUID: e32d146a-9538-46b1-b275-e6336d6603e2
+    inputFieldName: flowIn
+    outputFieldName: flowOut
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: e9608094-01a5-46cd-afc1-91f48bc05fd1
+    owner: {fileID: 11400000}
+    inputNodeGUID: c13af8ac-cd89-4c5b-a2d1-f4ada0af59e6
+    outputNodeGUID: 29262feb-255f-42f9-a71c-c48fda319301
+    inputFieldName: flowIn
+    outputFieldName: flowOut
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: f6cfd4b0-2de2-48d5-8291-ab9abbbbfd3a
+    owner: {fileID: 11400000}
+    inputNodeGUID: 974b2fc9-f794-4908-8008-f2a64c801445
+    outputNodeGUID: 1a1ab2d4-7586-44b4-936c-2408a38b7fad
+    inputFieldName: inputs
+    outputFieldName: value
+    inputPortIdentifier: 4c88aeec-083b-41a0-94cc-f9a8732546fe
+    outputPortIdentifier: 
+  - GUID: a3ddea9b-c755-4d9a-83e7-e78b6d033d0a
+    owner: {fileID: 11400000}
+    inputNodeGUID: 974b2fc9-f794-4908-8008-f2a64c801445
+    outputNodeGUID: 9eb703c7-9425-40e3-9cdd-fc0040aa3c97
+    inputFieldName: inputs
+    outputFieldName: value
+    inputPortIdentifier: 4ebead9c-67da-463d-81fe-037286eea517
+    outputPortIdentifier: 
+  - GUID: 20bd8c11-be88-43cf-a363-f690f235b9f6
+    owner: {fileID: 11400000}
+    inputNodeGUID: 43c23007-bd1d-48b7-ad5c-c7577ed5e34a
+    outputNodeGUID: 974b2fc9-f794-4908-8008-f2a64c801445
+    inputFieldName: flowIn
+    outputFieldName: flowOut
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 5a833181-3718-47ac-92fd-33ec363b0982
+    owner: {fileID: 11400000}
+    inputNodeGUID: 4a1b9c1f-043f-417c-a8f0-e589d1833c85
+    outputNodeGUID: 974b2fc9-f794-4908-8008-f2a64c801445
+    inputFieldName: flowIn
+    outputFieldName: flowOut
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 0d2b9ee6-6fe5-4ac6-ab18-758df452072c
+    owner: {fileID: 11400000}
+    inputNodeGUID: ee186c6b-a8ac-40fc-be21-2f376ea0d2a3
+    outputNodeGUID: 43c23007-bd1d-48b7-ad5c-c7577ed5e34a
+    inputFieldName: flowIn
+    outputFieldName: flowOut
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 7fb18fd2-7426-453f-ad6c-44b7059a434a
+    owner: {fileID: 11400000}
+    inputNodeGUID: f778bcdf-326f-4a0d-ad5b-4b31fd125f9e
+    outputNodeGUID: 4a1b9c1f-043f-417c-a8f0-e589d1833c85
+    inputFieldName: flowIn
+    outputFieldName: flowOut
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: b2363119-b1b0-45ce-8ded-e06c15b3c7da
+    owner: {fileID: 11400000}
+    inputNodeGUID: 974b2fc9-f794-4908-8008-f2a64c801445
+    outputNodeGUID: 604f894c-7bed-4aa7-82f6-ec529807c949
+    inputFieldName: flowIn
+    outputFieldName: flowOut
+    inputPortIdentifier: 
+    outputPortIdentifier: flowOut_0
+  - GUID: f6985982-679c-4e85-a132-e00a12b2dd8a
+    owner: {fileID: 11400000}
+    inputNodeGUID: 974b2fc9-f794-4908-8008-f2a64c801445
+    outputNodeGUID: 42e83f3b-ecf2-4bf1-9251-ff6160e49eaa
+    inputFieldName: inputs
+    outputFieldName: value
+    inputPortIdentifier: 928c0663-4c67-4c14-a11f-b23c79cbe529
+    outputPortIdentifier: 
+  - GUID: faa96e73-9343-4ce1-b11f-01042677a2d8
+    owner: {fileID: 11400000}
+    inputNodeGUID: 974b2fc9-f794-4908-8008-f2a64c801445
+    outputNodeGUID: 648fdd91-98e5-425b-9e17-891695f8e048
+    inputFieldName: inputs
+    outputFieldName: value
+    inputPortIdentifier: c30ebe57-0b24-429f-bd21-134ced324396
+    outputPortIdentifier: 
+  - GUID: 10a02785-5c4b-4271-8837-8a4d54310a84
+    owner: {fileID: 11400000}
+    inputNodeGUID: 43c23007-bd1d-48b7-ad5c-c7577ed5e34a
+    outputNodeGUID: 42e83f3b-ecf2-4bf1-9251-ff6160e49eaa
+    inputFieldName: contextName
+    outputFieldName: value
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 53743e2c-1df3-46ea-9733-c480248116e7
+    owner: {fileID: 11400000}
+    inputNodeGUID: 4a1b9c1f-043f-417c-a8f0-e589d1833c85
+    outputNodeGUID: 648fdd91-98e5-425b-9e17-891695f8e048
+    inputFieldName: contextName
+    outputFieldName: value
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 93cd2251-b030-446b-879e-cbdb3ef70796
+    owner: {fileID: 11400000}
+    inputNodeGUID: 05fdadf2-4a67-48a0-b601-4145047b12ec
+    outputNodeGUID: 531362b7-f3d4-4ed3-af8b-558e80b71032
+    inputFieldName: inputs
+    outputFieldName: value
+    inputPortIdentifier: 4c88aeec-083b-41a0-94cc-f9a8732546fe
+    outputPortIdentifier: 
+  - GUID: 713eb572-08e6-4a5b-9ca9-d167d24b4cc9
+    owner: {fileID: 11400000}
+    inputNodeGUID: 05fdadf2-4a67-48a0-b601-4145047b12ec
+    outputNodeGUID: aa94eb2b-f6ab-4f9f-a4ff-4b7aa8efc8c7
+    inputFieldName: inputs
+    outputFieldName: value
+    inputPortIdentifier: 4ebead9c-67da-463d-81fe-037286eea517
+    outputPortIdentifier: 
+  - GUID: ef004ce9-d03f-4a4a-9276-da32f173e9b1
+    owner: {fileID: 11400000}
+    inputNodeGUID: 05fdadf2-4a67-48a0-b601-4145047b12ec
+    outputNodeGUID: 996638d3-22c4-4c32-8e62-5c0f5edaa03f
+    inputFieldName: inputs
+    outputFieldName: value
+    inputPortIdentifier: 928c0663-4c67-4c14-a11f-b23c79cbe529
+    outputPortIdentifier: 
+  - GUID: 9a228bb0-fdb1-4e8c-b1af-9ef92b38a259
+    owner: {fileID: 11400000}
+    inputNodeGUID: 05fdadf2-4a67-48a0-b601-4145047b12ec
+    outputNodeGUID: 92383c6c-bdff-430b-a277-f82088b27857
+    inputFieldName: inputs
+    outputFieldName: value
+    inputPortIdentifier: c30ebe57-0b24-429f-bd21-134ced324396
+    outputPortIdentifier: 
+  - GUID: 0590e481-e6d7-41fa-9579-f149676b9cf6
+    owner: {fileID: 11400000}
+    inputNodeGUID: f78ab455-fce9-4b1b-930c-f829beeb0a60
+    outputNodeGUID: 05fdadf2-4a67-48a0-b601-4145047b12ec
+    inputFieldName: flowIn
+    outputFieldName: flowOut
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: bb0b1f95-cd06-438e-9941-e37770363910
+    owner: {fileID: 11400000}
+    inputNodeGUID: f10fa034-d9b6-42b6-ad1e-6a06e736e075
+    outputNodeGUID: 05fdadf2-4a67-48a0-b601-4145047b12ec
+    inputFieldName: flowIn
+    outputFieldName: flowOut
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: be56190c-12de-4460-9f87-b77444052c8a
+    owner: {fileID: 11400000}
+    inputNodeGUID: f78ab455-fce9-4b1b-930c-f829beeb0a60
+    outputNodeGUID: 996638d3-22c4-4c32-8e62-5c0f5edaa03f
+    inputFieldName: contextName
+    outputFieldName: value
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 1e1c7006-3e6a-4211-a11b-e9b18630bc7d
+    owner: {fileID: 11400000}
+    inputNodeGUID: b317c46a-be3a-46b1-8bd5-ecd912b50693
+    outputNodeGUID: f78ab455-fce9-4b1b-930c-f829beeb0a60
+    inputFieldName: flowIn
+    outputFieldName: flowOut
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 0ca925f7-a07d-4fc3-bc50-c5d9d1b3fca3
+    owner: {fileID: 11400000}
+    inputNodeGUID: f10fa034-d9b6-42b6-ad1e-6a06e736e075
+    outputNodeGUID: 92383c6c-bdff-430b-a277-f82088b27857
+    inputFieldName: contextName
+    outputFieldName: value
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 25707c1e-a6a0-4b30-b9ec-79857e0217c3
+    owner: {fileID: 11400000}
+    inputNodeGUID: a796bad7-f625-4da3-bd12-19a745f5515b
+    outputNodeGUID: f10fa034-d9b6-42b6-ad1e-6a06e736e075
+    inputFieldName: flowIn
+    outputFieldName: flowOut
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 6b56e745-5b65-4e52-bfe9-09eb7259075d
+    owner: {fileID: 11400000}
+    inputNodeGUID: 05fdadf2-4a67-48a0-b601-4145047b12ec
+    outputNodeGUID: 604f894c-7bed-4aa7-82f6-ec529807c949
+    inputFieldName: flowIn
+    outputFieldName: flowOut
+    inputPortIdentifier: 
+    outputPortIdentifier: flowOut_2
+  - GUID: e6cd55f3-db23-4b87-a841-10d292109521
+    owner: {fileID: 11400000}
+    inputNodeGUID: b25f1a55-8a4c-444b-8892-b0677c2a1029
+    outputNodeGUID: ddcb7fef-ca98-489f-b132-06db04db3100
+    inputFieldName: inputs
+    outputFieldName: value
+    inputPortIdentifier: 4c88aeec-083b-41a0-94cc-f9a8732546fe
+    outputPortIdentifier: 
+  - GUID: 8e1246a5-ffec-4cf9-ac73-5ec1aef96a02
+    owner: {fileID: 11400000}
+    inputNodeGUID: b25f1a55-8a4c-444b-8892-b0677c2a1029
+    outputNodeGUID: 043a03af-f2ff-48b9-b708-763da6834bf0
+    inputFieldName: inputs
+    outputFieldName: value
+    inputPortIdentifier: 4ebead9c-67da-463d-81fe-037286eea517
+    outputPortIdentifier: 
+  - GUID: 59380b53-e902-452f-9278-8a5c4cc7fe78
+    owner: {fileID: 11400000}
+    inputNodeGUID: b25f1a55-8a4c-444b-8892-b0677c2a1029
+    outputNodeGUID: 7fb9a4e8-77c2-42e3-b038-9e91b0be14c4
+    inputFieldName: inputs
+    outputFieldName: value
+    inputPortIdentifier: 928c0663-4c67-4c14-a11f-b23c79cbe529
+    outputPortIdentifier: 
+  - GUID: 108a10fe-5944-43a1-97ec-9c7ac7097d77
+    owner: {fileID: 11400000}
+    inputNodeGUID: b25f1a55-8a4c-444b-8892-b0677c2a1029
+    outputNodeGUID: 3cb1d63d-db0f-4e8f-a420-aaadd2d3d9a6
+    inputFieldName: inputs
+    outputFieldName: value
+    inputPortIdentifier: c30ebe57-0b24-429f-bd21-134ced324396
+    outputPortIdentifier: 
+  - GUID: e2b3660c-4931-4037-ae37-84b47ed06e1b
+    owner: {fileID: 11400000}
+    inputNodeGUID: c8c235ca-3a4e-4376-b4a4-57c2c1de44f7
+    outputNodeGUID: b25f1a55-8a4c-444b-8892-b0677c2a1029
+    inputFieldName: flowIn
+    outputFieldName: flowOut
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: a4086a07-1966-4e73-8101-253698433d0e
+    owner: {fileID: 11400000}
+    inputNodeGUID: a57cdec6-0591-4bb8-b095-cd03eb666085
+    outputNodeGUID: b25f1a55-8a4c-444b-8892-b0677c2a1029
+    inputFieldName: flowIn
+    outputFieldName: flowOut
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: fe1d7c20-fb36-42e9-ac04-144e529a16da
+    owner: {fileID: 11400000}
+    inputNodeGUID: c8c235ca-3a4e-4376-b4a4-57c2c1de44f7
+    outputNodeGUID: 7fb9a4e8-77c2-42e3-b038-9e91b0be14c4
+    inputFieldName: contextName
+    outputFieldName: value
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 431bd1e3-3351-414f-a8ae-09a45e644d0d
+    owner: {fileID: 11400000}
+    inputNodeGUID: 08913314-9c54-45e9-b1f5-536085d7d57f
+    outputNodeGUID: c8c235ca-3a4e-4376-b4a4-57c2c1de44f7
+    inputFieldName: flowIn
+    outputFieldName: flowOut
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: f4218703-a400-49fc-9cbf-a504de6cfd1a
+    owner: {fileID: 11400000}
+    inputNodeGUID: a57cdec6-0591-4bb8-b095-cd03eb666085
+    outputNodeGUID: 3cb1d63d-db0f-4e8f-a420-aaadd2d3d9a6
+    inputFieldName: contextName
+    outputFieldName: value
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: fe976e72-3e1f-4344-ba4a-f776f7b36dfb
+    owner: {fileID: 11400000}
+    inputNodeGUID: 956ec535-10c9-4b2d-8d4b-dfd4b5cb4cc8
+    outputNodeGUID: a57cdec6-0591-4bb8-b095-cd03eb666085
+    inputFieldName: flowIn
+    outputFieldName: flowOut
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: de6b1bb6-c20e-43ea-bf5b-5fe0412f7245
+    owner: {fileID: 11400000}
+    inputNodeGUID: b25f1a55-8a4c-444b-8892-b0677c2a1029
+    outputNodeGUID: 604f894c-7bed-4aa7-82f6-ec529807c949
+    inputFieldName: flowIn
+    outputFieldName: flowOut
+    inputPortIdentifier: 
+    outputPortIdentifier: flowOut_3
+  - GUID: e6a79240-06b8-4e1d-a21e-a1c51c213359
+    owner: {fileID: 11400000}
+    inputNodeGUID: 2d71fbd6-ff94-421c-9882-09677222d30d
+    outputNodeGUID: b1954b14-487e-4e44-b07c-a06ede49cc2b
+    inputFieldName: flowIn
+    outputFieldName: flowOut
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 79358c39-11f5-4236-9e27-c8770dd04b13
+    owner: {fileID: 11400000}
+    inputNodeGUID: c727e32e-a28a-4fe4-8dd1-6bf192ecd866
+    outputNodeGUID: 2d71fbd6-ff94-421c-9882-09677222d30d
+    inputFieldName: flowIn
+    outputFieldName: file
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  groups: []
+  stackNodes: []
+  pinnedElements: []
+  exposedParameters: []
+  serializedParameterList: []
+  stickyNotes: []
+  nodeInspectorReference: {fileID: 0}
+  position: {x: -37.6, y: 586.4, z: 0}
+  scale: {x: 0.7561437, y: 0.7561437, z: 1}
+  flags: 0
+  tags:
+  - AssetProcessor
+  order: 1
+  lastRunGuid: 
+  customName: "\u89D2\u8272\u7EB9\u7406\u547D\u540D\u68C0\u6D4B"
+  description: 
+  edgeInspectorReference: {fileID: 0}
+  Collection: 0e167a5fb9d447e439b32573ff432df2
+  references:
+    version: 2
+    RefIds:
+    - rid: 0
+      type: {class: LoadAssetsFromDirectory, ns: ND.NFU.Tools.AssetProcessor.Editor,
+        asm: NFU.AssetProcessor.Editor}
+      data:
+        nodeCustomName: 
+        GUID: b1954b14-487e-4e44-b07c-a06ede49cc2b
+        computeOrder: 0
+        position:
+          serializedVersion: 2
+          x: -147.59999
+          y: -510.40002
+          width: 160
+          height: 138.4
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        flowOut:
+          name: 
+        directory: Assets/actor/assets
+        include: 
+        exclude: 
+    - rid: 1
+      type: {class: FilterByAssetType, ns: ND.NFU.Tools.AssetProcessor.Editor, asm: NFU.AssetProcessor.Editor}
+      data:
+        nodeCustomName: 
+        GUID: 84b7e274-050a-4e39-a2be-42c4956a8ccd
+        computeOrder: 1
+        position:
+          serializedVersion: 2
+          x: 293.19
+          y: -512.4317
+          width: 136
+          height: 101
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        flowIn:
+          name: 
+        flowOut:
+          name: 
+        split:
+          name: 
+        assetTypes: 04000000
+    - rid: 3
+      type: {class: Statstics, ns: ND.NFU.Tools.AssetProcessor.Editor, asm: NFU.AssetProcessor.Editor}
+      data:
+        nodeCustomName: 
+        GUID: 024c4d08-94fa-4eab-9ae4-f8d0d15c3b81
+        computeOrder: 10
+        position:
+          serializedVersion: 2
+          x: 1810.4086
+          y: -682.39996
+          width: 205.59998
+          height: 108.79999
+        expanded: 1
+        debug: 0
+        nodeLock: 0
+        flowIn:
+          name: normal_suc
+        flowOut:
+          name: normal_suc
+        statsticsType: 1
+        reason: 
+        howFix: 
+    - rid: 5
+      type: {class: Statstics, ns: ND.NFU.Tools.AssetProcessor.Editor, asm: NFU.AssetProcessor.Editor}
+      data:
+        nodeCustomName: 
+        GUID: 3780da74-f757-440d-ae5f-1e83ab877a85
+        computeOrder: 11
+        position:
+          serializedVersion: 2
+          x: 1145.6
+          y: 501.01254
+          width: 229.59998
+          height: 108.79999
+        expanded: 1
+        debug: 0
+        nodeLock: 0
+        flowIn:
+          name: 
+        flowOut:
+          name: 
+        statsticsType: 2
+        reason: "\u573A\u666F\u7EB9\u7406\u6CA1\u6709\u6309\u7167\u89C4\u8303\u547D\u540D"
+        howFix: 
+    - rid: 6
+      type: {class: Statstics, ns: ND.NFU.Tools.AssetProcessor.Editor, asm: NFU.AssetProcessor.Editor}
+      data:
+        nodeCustomName: 
+        GUID: c13af8ac-cd89-4c5b-a2d1-f4ada0af59e6
+        computeOrder: 13
+        position:
+          serializedVersion: 2
+          x: 1810.4
+          y: -512
+          width: 229.59998
+          height: 108.80002
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        flowIn:
+          name: normal_failed
+        flowOut:
+          name: normal_failed
+        statsticsType: 2
+        reason: "\u89D2\u8272Normal\u56FE\u7C7B\u578B\u8BBE\u7F6E\u9519\u8BEF"
+        howFix: 
+    - rid: 8
+      type: {class: FilterByAssetName, ns: ND.NFU.Tools.AssetProcessor.Editor, asm: NFU.AssetProcessor.Editor}
+      data:
+        nodeCustomName: Filter By Name
+        GUID: fec96f75-0379-4505-85b9-847ce789f6dd
+        computeOrder: 6
+        position:
+          serializedVersion: 2
+          x: 479.1305
+          y: -487.99994
+          width: 196
+          height: 114.400024
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        flowIn:
+          name: 
+        flowOut:
+          name: 
+        assetNameFilters:
+        - ^[a-zA-Z0-9_.\-\/]+$
+        - (.*?)
+    - rid: 10
+      type: {class: FilterByAssetName, ns: ND.NFU.Tools.AssetProcessor.Editor, asm: NFU.AssetProcessor.Editor}
+      data:
+        nodeCustomName: Filter By Name
+        GUID: 604f894c-7bed-4aa7-82f6-ec529807c949
+        computeOrder: 7
+        position:
+          serializedVersion: 2
+          x: 924.8404
+          y: -487.99994
+          width: 162
+          height: 173
+        expanded: 1
+        debug: 0
+        nodeLock: 0
+        flowIn:
+          name: 
+        flowOut:
+          name: 
+        assetNameFilters:
+        - tex_.*_d.png$
+        - tex_.*_n.png$
+        - tex_.*_m.png$
+        - tex_.*$
+        - (.*?)
+    - rid: 8250136733152444422
+      type: {class: Statstics, ns: ND.NFU.Tools.AssetProcessor.Editor, asm: NFU.AssetProcessor.Editor}
+      data:
+        nodeCustomName: 
+        GUID: e5cbd451-b391-48c3-a609-83c4f70ff9fe
+        computeOrder: 14
+        position:
+          serializedVersion: 2
+          x: 731.9304
+          y: -238.39998
+          width: 229.59998
+          height: 108.8
+        expanded: 1
+        debug: 0
+        nodeLock: 0
+        flowIn:
+          name: 
+        flowOut:
+          name: 
+        statsticsType: 2
+        reason: "\u5E26\u6709\u4E2D\u6587\u6216\u975E\u6CD5\u5B57\u7B26"
+        howFix: 
+    - rid: 8250136733152444423
+      type: {class: StringNode, ns: ND.NFU.Tools.NodeGraph, asm: NFU.NodeGraph}
+      data:
+        nodeCustomName: 
+        GUID: 732afa20-85bb-4916-b3c7-7a6aca4ec572
+        computeOrder: 2
+        position:
+          serializedVersion: 2
+          x: 1189.6086
+          y: -447.19998
+          width: 148
+          height: 39.19998
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        value: normal_suc
+    - rid: 8250136733152444424
+      type: {class: StringNode, ns: ND.NFU.Tools.NodeGraph, asm: NFU.NodeGraph}
+      data:
+        nodeCustomName: 
+        GUID: c4983eb1-ea68-45c4-8c00-3878041e944b
+        computeOrder: 3
+        position:
+          serializedVersion: 2
+          x: 1182.4084
+          y: -650.39996
+          width: 148
+          height: 39.19995
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        value: textureType
+    - rid: 8250136733152444425
+      type: {class: EnumNode, ns: ND.NFU.Tools.NodeGraph, asm: NFU.NodeGraph}
+      data:
+        nodeCustomName: 
+        GUID: 25bb821e-58d9-48f3-951a-ed8c051f08ea
+        computeOrder: 4
+        position:
+          serializedVersion: 2
+          x: 1160.8085
+          y: -587.19995
+          width: 145.59998
+          height: 75.20001
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        valueType:
+          serializedType: UnityEditor.TextureImporterType, UnityEditor.CoreModule,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        longValue: 1
+        flags: 0
+    - rid: 8250136733152444426
+      type: {class: GraphNode, ns: ND.NFU.Tools.NodeGraph, asm: NFU.NodeGraph}
+      data:
+        nodeCustomName: 
+        GUID: a3de5f50-76ef-43e9-bb62-1f1dd0f45c44
+        computeOrder: 8
+        position:
+          serializedVersion: 2
+          x: 1390.4084
+          y: -650.39996
+          width: 170.40002
+          height: 186.39996
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        graph: {fileID: 11400000, guid: 385df89a937e4824ea994f1331a7e65c, type: 2}
+    - rid: 8250136733152444427
+      type: {class: PushAssetProcessorContextNode, ns: ND.NFU.Tools.AssetProcessor.Editor,
+        asm: NFU.AssetProcessor.Editor}
+      data:
+        nodeCustomName: 
+        GUID: e32d146a-9538-46b1-b275-e6336d6603e2
+        computeOrder: 9
+        position:
+          serializedVersion: 2
+          x: 1628.0085
+          y: -688
+          width: 136
+          height: 114.400024
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        flowIn:
+          name: 
+        contextName: normal_suc
+        flowOut:
+          name: normal_suc
+    - rid: 8250136733152444428
+      type: {class: StringNode, ns: ND.NFU.Tools.NodeGraph, asm: NFU.NodeGraph}
+      data:
+        nodeCustomName: 
+        GUID: 204e1f54-33f9-4c4e-a4ce-7236df77bd79
+        computeOrder: 5
+        position:
+          serializedVersion: 2
+          x: 1184.8086
+          y: -371.99997
+          width: 148
+          height: 39.200012
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        value: normal_failed
+    - rid: 8250136733152444429
+      type: {class: PushAssetProcessorContextNode, ns: ND.NFU.Tools.AssetProcessor.Editor,
+        asm: NFU.AssetProcessor.Editor}
+      data:
+        nodeCustomName: 
+        GUID: 29262feb-255f-42f9-a71c-c48fda319301
+        computeOrder: 12
+        position:
+          serializedVersion: 2
+          x: 1628
+          y: -522.3999
+          width: 136
+          height: 114.399994
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        flowIn:
+          name: 
+        contextName: normal_failed
+        flowOut:
+          name: normal_failed
+    - rid: 8250136733152444430
+      type: {class: StringNode, ns: ND.NFU.Tools.NodeGraph, asm: NFU.NodeGraph}
+      data:
+        nodeCustomName: 
+        GUID: 1a1ab2d4-7586-44b4-936c-2408a38b7fad
+        computeOrder: 15
+        position:
+          serializedVersion: 2
+          x: 1218.4
+          y: -1002.39996
+          width: 148
+          height: 39.19995
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        value: textureType
+    - rid: 8250136733152444431
+      type: {class: EnumNode, ns: ND.NFU.Tools.NodeGraph, asm: NFU.NodeGraph}
+      data:
+        nodeCustomName: 
+        GUID: 9eb703c7-9425-40e3-9cdd-fc0040aa3c97
+        computeOrder: 16
+        position:
+          serializedVersion: 2
+          x: 1196.8
+          y: -939.2
+          width: 145.59998
+          height: 75.20001
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        valueType:
+          serializedType: UnityEditor.TextureImporterType, UnityEditor.CoreModule,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        longValue: 0
+        flags: 0
+    - rid: 8250136733152444432
+      type: {class: GraphNode, ns: ND.NFU.Tools.NodeGraph, asm: NFU.NodeGraph}
+      data:
+        nodeCustomName: 
+        GUID: 974b2fc9-f794-4908-8008-f2a64c801445
+        computeOrder: 19
+        position:
+          serializedVersion: 2
+          x: 1409.6
+          y: -1040
+          width: 170.40002
+          height: 186.40002
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        graph: {fileID: 11400000, guid: 385df89a937e4824ea994f1331a7e65c, type: 2}
+    - rid: 8250136733152444435
+      type: {class: PushAssetProcessorContextNode, ns: ND.NFU.Tools.AssetProcessor.Editor,
+        asm: NFU.AssetProcessor.Editor}
+      data:
+        nodeCustomName: 
+        GUID: 43c23007-bd1d-48b7-ad5c-c7577ed5e34a
+        computeOrder: 20
+        position:
+          serializedVersion: 2
+          x: 1664
+          y: -1040
+          width: 136
+          height: 114.400024
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        flowIn:
+          name: 
+        contextName: diff_suc
+        flowOut:
+          name: diff_suc
+    - rid: 8250136733152444436
+      type: {class: PushAssetProcessorContextNode, ns: ND.NFU.Tools.AssetProcessor.Editor,
+        asm: NFU.AssetProcessor.Editor}
+      data:
+        nodeCustomName: 
+        GUID: 4a1b9c1f-043f-417c-a8f0-e589d1833c85
+        computeOrder: 21
+        position:
+          serializedVersion: 2
+          x: 1664
+          y: -876
+          width: 136
+          height: 114.400024
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        flowIn:
+          name: 
+        contextName: diff_failed
+        flowOut:
+          name: diff_failed
+    - rid: 8250136733152444437
+      type: {class: Statstics, ns: ND.NFU.Tools.AssetProcessor.Editor, asm: NFU.AssetProcessor.Editor}
+      data:
+        nodeCustomName: 
+        GUID: ee186c6b-a8ac-40fc-be21-2f376ea0d2a3
+        computeOrder: 22
+        position:
+          serializedVersion: 2
+          x: 1889.6001
+          y: -1040
+          width: 205.59998
+          height: 108.79999
+        expanded: 1
+        debug: 0
+        nodeLock: 0
+        flowIn:
+          name: diff_suc
+        flowOut:
+          name: diff_suc
+        statsticsType: 1
+        reason: 
+        howFix: 
+    - rid: 8250136733152444438
+      type: {class: Statstics, ns: ND.NFU.Tools.AssetProcessor.Editor, asm: NFU.AssetProcessor.Editor}
+      data:
+        nodeCustomName: 
+        GUID: f778bcdf-326f-4a0d-ad5b-4b31fd125f9e
+        computeOrder: 23
+        position:
+          serializedVersion: 2
+          x: 1889.6001
+          y: -870.39996
+          width: 229.59998
+          height: 108.79999
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        flowIn:
+          name: diff_failed
+        flowOut:
+          name: diff_failed
+        statsticsType: 2
+        reason: "\u89D2\u8272Diffuse\u56FE\u7C7B\u578B\u8BBE\u7F6E\u9519\u8BEF"
+        howFix: 
+    - rid: 8250136733152444439
+      type: {class: StringNode, ns: ND.NFU.Tools.NodeGraph, asm: NFU.NodeGraph}
+      data:
+        nodeCustomName: 
+        GUID: 42e83f3b-ecf2-4bf1-9251-ff6160e49eaa
+        computeOrder: 17
+        position:
+          serializedVersion: 2
+          x: 1190
+          y: -832.35016
+          width: 147.19995
+          height: 39.200012
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        value: diff_suc
+    - rid: 8250136733152444440
+      type: {class: StringNode, ns: ND.NFU.Tools.NodeGraph, asm: NFU.NodeGraph}
+      data:
+        nodeCustomName: 
+        GUID: 648fdd91-98e5-425b-9e17-891695f8e048
+        computeOrder: 18
+        position:
+          serializedVersion: 2
+          x: 1190.4
+          y: -748.4001
+          width: 148
+          height: 39.200012
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        value: diff_failed
+    - rid: 8250136733152444449
+      type: {class: StringNode, ns: ND.NFU.Tools.NodeGraph, asm: NFU.NodeGraph}
+      data:
+        nodeCustomName: 
+        GUID: 531362b7-f3d4-4ed3-af8b-558e80b71032
+        computeOrder: 24
+        position:
+          serializedVersion: 2
+          x: 1199.2001
+          y: -263.99976
+          width: 148
+          height: 39.200012
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        value: textureType
+    - rid: 8250136733152444450
+      type: {class: EnumNode, ns: ND.NFU.Tools.NodeGraph, asm: NFU.NodeGraph}
+      data:
+        nodeCustomName: 
+        GUID: aa94eb2b-f6ab-4f9f-a4ff-4b7aa8efc8c7
+        computeOrder: 25
+        position:
+          serializedVersion: 2
+          x: 1177.6001
+          y: -200.7998
+          width: 145.59998
+          height: 75.2
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        valueType:
+          serializedType: UnityEditor.TextureImporterType, UnityEditor.CoreModule,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        longValue: 0
+        flags: 0
+    - rid: 8250136733152444451
+      type: {class: GraphNode, ns: ND.NFU.Tools.NodeGraph, asm: NFU.NodeGraph}
+      data:
+        nodeCustomName: 
+        GUID: 05fdadf2-4a67-48a0-b601-4145047b12ec
+        computeOrder: 28
+        position:
+          serializedVersion: 2
+          x: 1390.4
+          y: -301.5998
+          width: 170.40002
+          height: 186.40001
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        graph: {fileID: 11400000, guid: 385df89a937e4824ea994f1331a7e65c, type: 2}
+    - rid: 8250136733152444452
+      type: {class: PushAssetProcessorContextNode, ns: ND.NFU.Tools.AssetProcessor.Editor,
+        asm: NFU.AssetProcessor.Editor}
+      data:
+        nodeCustomName: 
+        GUID: f78ab455-fce9-4b1b-930c-f829beeb0a60
+        computeOrder: 29
+        position:
+          serializedVersion: 2
+          x: 1644.8
+          y: -301.5998
+          width: 136
+          height: 114.40001
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        flowIn:
+          name: 
+        contextName: diff_suc
+        flowOut:
+          name: diff_suc
+    - rid: 8250136733152444453
+      type: {class: PushAssetProcessorContextNode, ns: ND.NFU.Tools.AssetProcessor.Editor,
+        asm: NFU.AssetProcessor.Editor}
+      data:
+        nodeCustomName: 
+        GUID: f10fa034-d9b6-42b6-ad1e-6a06e736e075
+        computeOrder: 30
+        position:
+          serializedVersion: 2
+          x: 1644.8
+          y: -137.5998
+          width: 136
+          height: 114.399994
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        flowIn:
+          name: 
+        contextName: diff_failed
+        flowOut:
+          name: diff_failed
+    - rid: 8250136733152444454
+      type: {class: Statstics, ns: ND.NFU.Tools.AssetProcessor.Editor, asm: NFU.AssetProcessor.Editor}
+      data:
+        nodeCustomName: 
+        GUID: b317c46a-be3a-46b1-8bd5-ecd912b50693
+        computeOrder: 31
+        position:
+          serializedVersion: 2
+          x: 1870.4
+          y: -301.5998
+          width: 205.59998
+          height: 108.80002
+        expanded: 1
+        debug: 0
+        nodeLock: 0
+        flowIn:
+          name: diff_suc
+        flowOut:
+          name: diff_suc
+        statsticsType: 1
+        reason: 
+        howFix: 
+    - rid: 8250136733152444455
+      type: {class: Statstics, ns: ND.NFU.Tools.AssetProcessor.Editor, asm: NFU.AssetProcessor.Editor}
+      data:
+        nodeCustomName: 
+        GUID: a796bad7-f625-4da3-bd12-19a745f5515b
+        computeOrder: 32
+        position:
+          serializedVersion: 2
+          x: 1870.4
+          y: -131.99976
+          width: 229.59998
+          height: 108.8
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        flowIn:
+          name: diff_failed
+        flowOut:
+          name: diff_failed
+        statsticsType: 2
+        reason: "\u89D2\u8272\u5408\u5E76\u56FE\u7C7B\u578B\u8BBE\u7F6E\u9519\u8BEF"
+        howFix: 
+    - rid: 8250136733152444456
+      type: {class: StringNode, ns: ND.NFU.Tools.NodeGraph, asm: NFU.NodeGraph}
+      data:
+        nodeCustomName: 
+        GUID: 996638d3-22c4-4c32-8e62-5c0f5edaa03f
+        computeOrder: 26
+        position:
+          serializedVersion: 2
+          x: 1171.2001
+          y: -93.59979
+          width: 148
+          height: 39.199997
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        value: diff_suc
+    - rid: 8250136733152444457
+      type: {class: StringNode, ns: ND.NFU.Tools.NodeGraph, asm: NFU.NodeGraph}
+      data:
+        nodeCustomName: 
+        GUID: 92383c6c-bdff-430b-a277-f82088b27857
+        computeOrder: 27
+        position:
+          serializedVersion: 2
+          x: 1171.2001
+          y: -9.5997925
+          width: 148
+          height: 39.2
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        value: diff_failed
+    - rid: 8250136733152444458
+      type: {class: StringNode, ns: ND.NFU.Tools.NodeGraph, asm: NFU.NodeGraph}
+      data:
+        nodeCustomName: 
+        GUID: ddcb7fef-ca98-489f-b132-06db04db3100
+        computeOrder: 33
+        position:
+          serializedVersion: 2
+          x: 1173.5737
+          y: 128.6145
+          width: 148
+          height: 39.199997
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        value: textureType
+    - rid: 8250136733152444459
+      type: {class: EnumNode, ns: ND.NFU.Tools.NodeGraph, asm: NFU.NodeGraph}
+      data:
+        nodeCustomName: 
+        GUID: 043a03af-f2ff-48b9-b708-763da6834bf0
+        computeOrder: 34
+        position:
+          serializedVersion: 2
+          x: 1151.9738
+          y: 191.8145
+          width: 145.59998
+          height: 75.2
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        valueType:
+          serializedType: UnityEditor.TextureImporterType, UnityEditor.CoreModule,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        longValue: 0
+        flags: 0
+    - rid: 8250136733152444460
+      type: {class: GraphNode, ns: ND.NFU.Tools.NodeGraph, asm: NFU.NodeGraph}
+      data:
+        nodeCustomName: 
+        GUID: b25f1a55-8a4c-444b-8892-b0677c2a1029
+        computeOrder: 37
+        position:
+          serializedVersion: 2
+          x: 1364.7738
+          y: 91.01453
+          width: 170.40002
+          height: 186.4
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        graph: {fileID: 11400000, guid: 385df89a937e4824ea994f1331a7e65c, type: 2}
+    - rid: 8250136733152444461
+      type: {class: PushAssetProcessorContextNode, ns: ND.NFU.Tools.AssetProcessor.Editor,
+        asm: NFU.AssetProcessor.Editor}
+      data:
+        nodeCustomName: 
+        GUID: c8c235ca-3a4e-4376-b4a4-57c2c1de44f7
+        computeOrder: 38
+        position:
+          serializedVersion: 2
+          x: 1619.1738
+          y: 91.01453
+          width: 136
+          height: 114.4
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        flowIn:
+          name: 
+        contextName: default_suc
+        flowOut:
+          name: default_suc
+    - rid: 8250136733152444462
+      type: {class: PushAssetProcessorContextNode, ns: ND.NFU.Tools.AssetProcessor.Editor,
+        asm: NFU.AssetProcessor.Editor}
+      data:
+        nodeCustomName: 
+        GUID: a57cdec6-0591-4bb8-b095-cd03eb666085
+        computeOrder: 39
+        position:
+          serializedVersion: 2
+          x: 1619.1738
+          y: 255.0145
+          width: 136
+          height: 114.399994
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        flowIn:
+          name: 
+        contextName: default_failed
+        flowOut:
+          name: default_failed
+    - rid: 8250136733152444463
+      type: {class: StringNode, ns: ND.NFU.Tools.NodeGraph, asm: NFU.NodeGraph}
+      data:
+        nodeCustomName: 
+        GUID: 7fb9a4e8-77c2-42e3-b038-9e91b0be14c4
+        computeOrder: 35
+        position:
+          serializedVersion: 2
+          x: 1145.5737
+          y: 299.01453
+          width: 148
+          height: 39.200012
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        value: default_suc
+    - rid: 8250136733152444464
+      type: {class: StringNode, ns: ND.NFU.Tools.NodeGraph, asm: NFU.NodeGraph}
+      data:
+        nodeCustomName: 
+        GUID: 3cb1d63d-db0f-4e8f-a420-aaadd2d3d9a6
+        computeOrder: 36
+        position:
+          serializedVersion: 2
+          x: 1145.5737
+          y: 383.0145
+          width: 148
+          height: 39.200012
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        value: default_failed
+    - rid: 8250136733152444465
+      type: {class: Statstics, ns: ND.NFU.Tools.AssetProcessor.Editor, asm: NFU.AssetProcessor.Editor}
+      data:
+        nodeCustomName: 
+        GUID: 08913314-9c54-45e9-b1f5-536085d7d57f
+        computeOrder: 40
+        position:
+          serializedVersion: 2
+          x: 1844.7738
+          y: 91.01453
+          width: 205.59998
+          height: 108.799995
+        expanded: 1
+        debug: 0
+        nodeLock: 0
+        flowIn:
+          name: default_suc
+        flowOut:
+          name: default_suc
+        statsticsType: 1
+        reason: 
+        howFix: 
+    - rid: 8250136733152444466
+      type: {class: Statstics, ns: ND.NFU.Tools.AssetProcessor.Editor, asm: NFU.AssetProcessor.Editor}
+      data:
+        nodeCustomName: 
+        GUID: 956ec535-10c9-4b2d-8d4b-dfd4b5cb4cc8
+        computeOrder: 41
+        position:
+          serializedVersion: 2
+          x: 1844.7738
+          y: 260.6145
+          width: 229.59998
+          height: 108.79999
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        flowIn:
+          name: default_failed
+        flowOut:
+          name: default_failed
+        statsticsType: 2
+        reason: "\u573A\u666F\u5408\u5E76\u56FE\u7C7B\u578B\u8BBE\u7F6E\u9519\u8BEF"
+        howFix: 
+    - rid: 8250136737226162192
+      type: {class: FilterFileOrDirectory, ns: ND.NFU.Tools.AssetProcessor.Editor,
+        asm: NFU.AssetProcessor.Editor}
+      data:
+        nodeCustomName: 
+        GUID: 2d71fbd6-ff94-421c-9882-09677222d30d
+        computeOrder: 42
+        position:
+          serializedVersion: 2
+          x: 32.60002
+          y: -282
+          width: 168
+          height: 114.399994
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        flowIn:
+          name: 
+        file:
+          name: 
+        directory:
+          name: 
+    - rid: 8250136737226162193
+      type: {class: FilterByAssetName, ns: ND.NFU.Tools.AssetProcessor.Editor, asm: NFU.AssetProcessor.Editor}
+      data:
+        nodeCustomName: Filter By Name
+        GUID: c727e32e-a28a-4fe4-8dd1-6bf192ecd866
+        computeOrder: 43
+        position:
+          serializedVersion: 2
+          x: 366.2
+          y: -264
+          width: 196
+          height: 114.399994
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        flowIn:
+          name: 
+        flowOut:
+          name: 
+        assetNameFilters:
+        - /tex/

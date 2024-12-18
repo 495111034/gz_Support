@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.game.ndsupersdk" >
+    
+    <application
+        android:name="com.game.ndsupersdk.NDSApplication"
+        android:largeHeap="true"
+        android:usesCleartextTraffic="true"
+        tools:ignore="MissingTvBanner" 
+		android:theme="@android:style/Theme.Holo.Light.DarkActionBar" >
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.game.ndsupersdk.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="${applicationId}.action.fcm.launch"/> <!--FCM推送功能需要配置-->
+            </intent-filter>
+
+            <meta-data
+                android:name="unityplayer.UnityActivity"
+                android:value="true" />
+        </activity>
+
+        <!--统计SDK参数，需要替换成游戏自己的-->
+        <meta-data
+            tools:replace="android:value"
+            android:name="ND_ANALY_APPID"
+            android:value="188bc32bffb847d38bf2e0abcb6b2c1d" />
+        <meta-data
+            tools:replace="android:value"
+            android:name="ND_ANALY_APPKEY"
+            android:value="GyCJIbQcFrPcqnwQCsRUe2" />
+        <meta-data
+            tools:replace="android:value"
+            android:name="ND_ANALY_CHANNEL"
+            android:value="nd" />
+        <meta-data
+            tools:replace="android:value"
+            android:name="ND_ANALY_AD_CHANNEL"
+            android:value="" />
+
+        <!-- 需要替换成游戏项目自己申请的参数，google appid-->
+        <meta-data
+            android:name="com.google.android.gms.ApplicationId"
+            android:value="1:736200093877:android:fa6b2253652667e9b9cefc" />
+        <!-- 需要替换成游戏项目自己申请的参数，google clientid-->
+        <meta-data
+            android:name="com.google.android.gms.auth_client_id"
+            android:value="736200093877-3o4701pme9889388pl60victr87empd5.apps.googleusercontent.com" />
+
+        <!-- 需要替换成游戏项目自己申请的参数，facebook appid, appid是数字类型，前面需要添加\-->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="\1125397134929265" />
+        <!-- 需要替换成游戏项目自己申请的参数，facebook provider appid-->
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:exported="true"
+            android:authorities="com.facebook.app.FacebookContentProvider1125397134929265" />
+
+        <!--appflyer的appkey-->
+        <meta-data
+            android:name="appsflyer_key"
+            android:value="a6b79Dh959SeqLhQc35oV9" />
+
+        <!--FCM推送需要配置-->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id" android:value="default" /><!-- 推送渠道，默认填写 default-->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@drawable/ic_notification" /><!-- 推送通知的 logo，logo 要求透明背景和白色图片-->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color" android:resource="@color/colorAccent" /><!-- 推送通知栏的背景色-->
+
+        <!-- 全面屏配置支持 -->
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.6" />
+        <meta-data
+            android:name="android.min_aspect"
+            android:value="1.0" />
+        <!-- HUAWEI全面屏使用刘海区 -->
+        <meta-data
+            android:name="android.notch_support"
+            android:value="true" />
+        <!-- MIUI全面屏使用刘海区 -->
+        <meta-data
+            android:name="notch.config"
+            android:value="portrait|landscape" />
+    </application>
+
+</manifest>

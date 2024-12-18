@@ -1,0 +1,19 @@
+﻿碰撞器/进入时@{"eventId":0,"desc":"碰撞器/进入时","fieldConfigs":[{"desc":"触发类型","field":"ignore_type","type":"enum","value":"0","enums":["主角触发","全部","指定AOI类型(视野之内)"]},{"desc":"AOI类型","field":"aoi_type","type":"Int32","value":"0","enums":[]},{"desc":"指定id,不填则任意","field":"class_id","type":"Int32","value":"0","enums":[]}]}
+碰撞器/逗留时@{"eventId":1,"desc":"碰撞器/逗留时","fieldConfigs":[{"desc":"触发类型","field":"ignore_type","type":"enum","value":"0","enums":["主角触发","全部"]}]}
+碰撞器/离开时@{"eventId":2,"desc":"碰撞器/离开时","fieldConfigs":[{"desc":"触发类型","field":"ignore_type","type":"enum","value":"0","enums":["主角触发","全部"]}]}
+场景事件/场景初始化@{"eventId":3,"desc":"场景事件/场景初始化","fieldConfigs":[]}
+场景事件/采集成功@{"eventId":8,"desc":"场景事件/采集成功","fieldConfigs":[{"desc":"填aoi_group_ids逗号隔开","field":"aoi_group_ids","type":"Int32[]","value":"","enums":[]}]}
+场景事件/副本进度改变时@{"eventId":9,"desc":"场景事件/副本进度改变时","fieldConfigs":[{"desc":"玩法目标id","field":"target_id","type":"Int32","value":"0","enums":[]},{"desc":"进度值","field":"target_value","type":"Int32","value":"0","enums":[]}]}
+场景事件/对象死亡时触发@{"eventId":10,"desc":"场景事件/对象死亡时触发","fieldConfigs":[{"desc":"填aoi_group_ids逗号隔开","field":"aoi_group_ids","type":"Int32[]","value":"","enums":[]}]}
+场景事件/剧情结束@{"eventId":4,"desc":"场景事件/剧情结束","fieldConfigs":[{"desc":"指定timeline资源名","field":"timeline","type":"String","value":"","enums":[]}]}
+场景事件/波次结束@{"eventId":5,"desc":"场景事件/波次结束","fieldConfigs":[{"desc":"指定波次，填0不指定","field":"phaseId","type":"Int32","value":"0","enums":[]},{"desc":"触发冷却(秒)","field":"interval_cd_s","type":"Single","value":"0","enums":[]}]}
+场景事件/目标血量达到多少触发@{"eventId":11,"desc":"场景事件/目标血量达到多少触发","fieldConfigs":[{"desc":"aoi_group_id","field":"aoi_group_id","type":"Int32","value":"0","enums":[]},{"desc":"使用百分比","field":"is_per","type":"Boolean","value":"True","enums":[]},{"desc":"判断条件","field":"condi_type","type":"enum","value":"0","enums":["小于","大于"]},{"desc":"目标值","field":"hp_value","type":"Int32","value":"0","enums":[]}]}
+NPC/NPC对话结束@{"eventId":6,"desc":"NPC/NPC对话结束","fieldConfigs":[{"desc":"指定npcID，填0不指定","field":"npc_id","type":"Int32","value":"0","enums":[]}]}
+NPC/NPC对话选项卡点击@{"eventId":7,"desc":"NPC/NPC对话选项卡点击","fieldConfigs":[{"desc":"指定npcID，填0不指定","field":"npc_id","type":"Int32","value":"0","enums":[]},{"desc":"指定选项卡id，不填不指定","field":"opt_id","type":"String","value":"","enums":[]}]}
+计时器触发/间隔多少秒触发@{"eventId":13,"desc":"计时器触发/间隔多少秒触发","fieldConfigs":[{"desc":"间隔秒","field":"interval","type":"Single","value":"0","enums":[]}]}
+场景事件/当触发器触发时@{"eventId":14,"desc":"场景事件/当触发器触发时","fieldConfigs":[{"desc":"触发器id","field":"target_id","type":"Int32","value":"0","enums":[]}]}
+场景事件/当MonsterSkillAi触发时@{"eventId":15,"desc":"场景事件/当MonsterSkillAi触发时","fieldConfigs":[{"desc":"MonsterSkillAiBase ID","field":"target_id","type":"Int32","value":"0","enums":[]}]}
+任务/玩家当前任务状态达成触发@{"eventId":16,"desc":"任务/玩家当前任务状态达成触发","fieldConfigs":[{"desc":"任务 ID","field":"task_id","type":"Int32","value":"0","enums":[]},{"desc":"任务状态","field":"task_states","type":"Int32[]","value":"","enums":[]},{"desc":"检查间隔秒","field":"check_time","type":"Int32","value":"3","enums":[]}]}
+场景事件/当前玩法是否首通@{"eventId":17,"desc":"场景事件/当前玩法是否首通","fieldConfigs":[{"desc":"active_sub_id","field":"active_sub_base_id","type":"Int32","value":"0","enums":[]}]}
+任务/通过碰撞器并检测任务状态触发@{"eventId":18,"desc":"任务/通过碰撞器并检测任务状态触发","fieldConfigs":[{"desc":"任务 ID","field":"task_id","type":"Int32","value":"0","enums":[]},{"desc":"任务状态","field":"task_states","type":"Int32[]","value":"","enums":[]},{"desc":"碰撞器","field":"box_type","type":"enum","value":"0","enums":["进入时","逗留时","离开时"]},{"desc":"触发类型","field":"ignore_type","type":"enum","value":"0","enums":["主角触发","全部","指定AOI类型(视野之内)"]},{"desc":"AOI类型","field":"aoi_type","type":"Int32","value":"0","enums":[]},{"desc":"指定id,不填则任意","field":"class_id","type":"Int32","value":"0","enums":[]}]}
+神弃之地/达到最大阶段满的时候@{"eventId":19,"desc":"神弃之地/达到最大阶段满的时候","fieldConfigs":[{"desc":"阵营ids","field":"zhenyings","type":"Int32[]","value":"","enums":[]}]}

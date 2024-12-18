@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b2425a2284af743826c689403a4924, type: 3}
+  m_Name: scene_Specular
+  m_EditorClassIdentifier: 
+  m_functionInfo: "// Made with Amplify Shader Editor\n// Available at the Unity Asset
+    Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=15301\n-1479;348;1542;988;2141.688;355.1326;1.386806;False;True\nNode;AmplifyShaderEditor.PowerNode;69;-523.6391,-33.343;Float;False;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.RangedFloatNode;57;-1290.786,653.6705;Half;False;Constant;_Float0;Float
+    0;2;0;Create;True;0;0;False;0;10;0;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;63;-1419.643,589.2102;Float;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;58;-1669.553,586.201;Float;False;Specular
+    Range Input;1;3;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;65;-2192,-32;Float;False;View
+    Add Input;3;1;False;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.SimpleAddOpNode;66;-1806,104;Float;False;2;2;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.ViewDirInputsCoordNode;62;-2191,70;Float;False;World;False;0;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3\nNode;AmplifyShaderEditor.FunctionInput;64;-2187,-116;Float;False;Normal
+    Input;3;2;False;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.SaturateNode;55;-964.4883,126.7352;Float;True;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.DotProductOpNode;61;-1150.075,234.2949;Float;False;2;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.RangedFloatNode;67;-1585.063,662.1144;Half;False;Constant;_Float1;Float
+    1;1;0;Create;True;0;0;False;0;10;10;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;68;-498.2619,231.6846;Float;False;SP
+    Input;1;4;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;73;-517.2286,103.8258;Float;False;Light
+    Input;1;5;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;74;-572.8883,-141.5077;Float;False;SkyLightColorInput;5;0;False;1;0;COLOR;0,0,0,0;False;1;COLOR;0\nNode;AmplifyShaderEditor.FunctionInput;70;-569.3291,-220.9648;Float;False;Specular
+    Height;1;6;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;72;-185.1359,125.184;Float;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;71;47.89151,-88.44041;Float;False;4;4;0;FLOAT;0;False;1;COLOR;0,0,0,0;False;2;FLOAT;0;False;3;FLOAT;0;False;1;COLOR;0\nNode;AmplifyShaderEditor.Exp2OpNode;56;-955.6433,573.2102;Float;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleAddOpNode;60;-1143.166,592.4257;Float;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.NormalizeNode;59;-1468.742,227.9092;Float;False;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.FunctionOutput;0;635.1488,11.27763;Float;False;True;Output;0;False;1;0;COLOR;0,0,0,0;False;1;COLOR;0\nWireConnection;69;0;55;0\nWireConnection;69;1;56;0\nWireConnection;63;0;58;0\nWireConnection;63;1;67;0\nWireConnection;66;0;65;0\nWireConnection;66;1;62;0\nWireConnection;55;0;61;0\nWireConnection;61;0;64;0\nWireConnection;61;1;59;0\nWireConnection;72;0;73;0\nWireConnection;72;1;68;0\nWireConnection;71;0;70;0\nWireConnection;71;1;74;0\nWireConnection;71;2;72;0\nWireConnection;71;3;69;0\nWireConnection;56;0;60;0\nWireConnection;60;0;63;0\nWireConnection;60;1;57;0\nWireConnection;59;0;66;0\nWireConnection;0;0;71;0\nASEEND*/\n//CHKSM=097ED56CFAF41D240B26FC39A27FA4E60D5B73F9"
+  m_functionName: 
+  m_description: 
+  m_additionalIncludes:
+    m_additionalIncludes: []
+    m_outsideIncludes: []
+  m_additionalPragmas:
+    m_additionalPragmas: []
+    m_outsidePragmas: []
+  m_nodeCategory: 3
+  m_customNodeCategory: 
+  m_previewPosition: 0
