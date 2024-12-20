@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: mat_1002_zc_wj008
+  m_Shader: {fileID: 4800000, guid: ab0ce5c6feda3094f850b96bb1914343, type: 3}
+  m_ValidKeywords:
+  - REFLECT_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: d3760faf3dab5bf46baf785e40875200, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CoverBumpTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CoverTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DustMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: 48210f76e5254794780c9be33f3d0ed9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ExtendMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 48210f76e5254794780c9be33f3d0ed9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicTex:
+        m_Texture: {fileID: 2800000, guid: 0ef23623d681d454ca1159075f033012, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MirrorReflectionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BackTransNormalDistortion: 0.2
+    - _Blend_ON: 0
+    - _BumpMapScale: 1
+    - _BumpScale: 1
+    - _CameraLightMin: 0
+    - _CameraLightTrans: 4.8
+    - _CameraLight_IsOpening: 0
+    - _ClipAlpha: 0.1
+    - _ClipOn: 0
+    - _CoverAmount: 0.5
+    - _CoverBumpMapScale: 1
+    - _CoverFade: 0.5
+    - _CoverFade2: 10
+    - _CoverSmoothnessScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _DustDepthShift: 0.5
+    - _DustNoiseIntensity: 0.5
+    - _DustNoiseUVScale: 1
+    - _EmissionMapOn: 1
+    - _EmissionOn: 1
+    - _EmissionSpeed: 1
+    - _EmissionStart: 0
+    - _FadeDistanceFar: 55
+    - _FadeDistanceNear: 20
+    - _FadeON: 0
+    - _FresnelExp: 1
+    - _FrontTransIntensity: 0.15
+    - _FrontTransNormalDistortion: 0.2
+    - _GiDiffuse: 1
+    - _GlossMapScale: 1
+    - _GlossScale: 0.57
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _HasExtendMap: 0
+    - _HollowOn: 0
+    - _HollowRate: 0
+    - _IsDustOn: 0
+    - _IsICEOn: 0
+    - _MainTexAlphaType: 0
+    - _Metallic: 0
+    - _MetallicScale: 0.89
+    - _MirrorReflectionOn: 0
+    - _MirrorReflectionScale: 1
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _ReflectMetallic: 0.42
+    - _ReflectOn: 1
+    - _ReflectSmoothness: 0.8
+    - _RimBase: -0.59
+    - _RimIntensity: 0.3
+    - _RimPower: 0.9
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TransScattering: 1
+    - _TransShadow: 0.2
+    - _Translucency: 3
+    - _UVSec: 0
+    - _UseRealtimeShadow: 0
+    - _UseRimThicknessMask: 0
+    - _UseThicknessMask: 0
+    - _ZWrite: 1
+    - _isCover_on: 0
+    - _isUseConverBumpTex: 0
+    m_Colors:
+    - _CameraLightColorScale: {r: 1, g: 1, b: 1, a: 1}
+    - _CameraLightOffset: {r: 0, g: 1, b: 0, a: 0}
+    - _Color: {r: 0.9483357, g: 0.95140016, b: 0.9528302, a: 1}
+    - _CoverColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DustColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DustUVScale: {r: 1, g: 1, b: 0, a: 0}
+    - _Emission: {r: 0, g: 1.5372549, b: 5.992157, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionLowQuility: {r: 0.047551896, g: 1.6286523, b: 3.031433, a: 1}
+    - _MirrorNormal: {r: 0, g: 1, b: 0, a: 0}
+    - _RimIceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SSSColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Specular: {r: 0.4339623, g: 0.4339623, b: 0.4339623, a: 1}
+  m_BuildTextureStacks: []

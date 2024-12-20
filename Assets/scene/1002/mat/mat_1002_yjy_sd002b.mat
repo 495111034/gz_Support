@@ -1,0 +1,282 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: mat_1002_yjy_sd002b
+  m_Shader: {fileID: 4800000, guid: b8de97a7e57eb6e4a9d2266d27aadc38, type: 3}
+  m_ValidKeywords:
+  - IMAGEBLOCKGLITCH_OFF
+  - RGBSPLITGLITCH_OFF
+  - TWIST_ON
+  m_InvalidKeywords:
+  - Blend_ON
+  - ISCOVER_ON
+  - NOISE_ON
+  - _CUSTOM_INTERACT
+  - _EmissionEnable
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 3ac0da4f0860cb245b68736ccbb3cf9b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CoverBumpTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CoverTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DustMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: 73ed358a779dd934e92b114b07538b4e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ExtendMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: b3ee454e48968fb4db054078e240e42c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicTex:
+        m_Texture: {fileID: 2800000, guid: 5c527682d4389544e96b279b9cf0dbbf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MirrorReflectionTex:
+        m_Texture: {fileID: 2800000, guid: 5e3b021de7123e9408c45d07d7c05ed2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Native_LightMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 932cf052b1fd7574d9f74124a53c1712, type: 3}
+        m_Scale: {x: 22, y: 22}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryTex:
+        m_Texture: {fileID: 2800000, guid: 3400ff63f0111e947aad99b6bf92cf22, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TwistNoiseTex:
+        m_Texture: {fileID: 2800000, guid: ee1428d54532607489fb7a8a631956ad, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - ImageBlockGlitch: 0
+    - RGBSplitGlitch: 0
+    - _AnimColumnCount: 1
+    - _AnimRowCount: 1
+    - _AnimSpeed: 1
+    - _BRUSH_GRASS_ON: 0
+    - _BackTransNormalDistortion: 0.225
+    - _Blend_ON: 1
+    - _BrushShadowStrength: 0.75
+    - _BrushStrength: 0.5
+    - _BumpMapScale: 0.43
+    - _BumpScale: 1
+    - _CUSTOM_INTERACT: 1
+    - _CameraLightMin: 0.597
+    - _CameraLightTrans: 5
+    - _CameraLight_IsOpening: 0
+    - _ClipAlpha: 0.436
+    - _ClipOn: 0
+    - _Color2OverlayType: 0
+    - _CoverAmount: 0.24
+    - _CoverBumpMapScale: 1
+    - _CoverFade: 0.5
+    - _CoverFade2: 10
+    - _CoverSmoothnessScale: 1
+    - _Cull: 0
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DirectionalDissolve: 0
+    - _Dissolve: 0
+    - _DissolveRatio: 1
+    - _DissolveThreshold: 0
+    - _DstBlend: 10
+    - _DstBlendAlpha: 6
+    - _DustDepthShift: 0.5
+    - _DustNoiseIntensity: 0.5
+    - _DustNoiseUVScale: 1
+    - _EffectType: 0
+    - _Emission2Level: 1.16
+    - _EmissionEnable: 1
+    - _EmissionFade: 1
+    - _EmissionMapOn: 0
+    - _EmissionOn: 1
+    - _EmissionSpeed: 1
+    - _EmissionStart: 0
+    - _EnableCartoonLayer: 0
+    - _EnableNoiseTex: 1
+    - _EnableWave: 1
+    - _FadeDistanceFar: 55
+    - _FadeDistanceNear: 20
+    - _FadeON: 0
+    - _FillLight: 0.743
+    - _Flowing: 0
+    - _FlowingBoost: 0
+    - _Frame_Animation: 0
+    - _FresnelExp: 0
+    - _FrontTransIntensity: 0.15
+    - _FrontTransNormalDistortion: 0.2
+    - _GiDiffuse: 1
+    - _GlossMapScale: 1
+    - _GlossScale: 1.08
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _HasEmissionMap: 1
+    - _HasExtendMap: 0
+    - _HasTranslucency: 1
+    - _HollowOn: 0
+    - _HollowRate: 0
+    - _ImageBlockSplitBaseColor: 0
+    - _ImageBlockglitchFade: 1
+    - _IsDustOn: 0
+    - _IsICEOn: 0
+    - _LayerSplitHeight1: 0.75
+    - _LayerSplitHeight2: 0.25
+    - _LayerSplitRange1: 0.1
+    - _LayerSplitRange2: 0.1
+    - _MainAlpha: 0.743
+    - _MainTexAlphaType: 0
+    - _Metallic: 0
+    - _MetallicScale: 1.1
+    - _MirrorReflectionOn: 0
+    - _MirrorReflectionScale: 2
+    - _Mode: 0
+    - _NATIVE_LIGHTMAP: 0
+    - _Native_LightMapInstensity: 1
+    - _NoiseFactor: 0.0102
+    - _NoiseSpeed: 0.48
+    - _NormalScale: 1
+    - _OcclusionStrength: 1
+    - _PBR: 0
+    - _Parallax: 0.02
+    - _PushRadiu: 2
+    - _PushStrength: 5
+    - _RGBSplitBaseColor: 0
+    - _ReflectMetallic: 0
+    - _ReflectOn: 0
+    - _ReflectSmoothness: 0.23
+    - _RimBase: -0.59
+    - _RimIntensity: 0.3
+    - _RimPower: 0.9
+    - _SecondTexOn: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SplitglitchFade: 0.607
+    - _SrcBlend: 5
+    - _SrcBlendAlpha: 5
+    - _TransScattering: 1
+    - _TransShadow: 0.2
+    - _Translucency: 5.2
+    - _Twist: 1
+    - _TwistByTimeOn: 1
+    - _TwistStrength: 0.003
+    - _UVSec: 0
+    - _UseRimThicknessMask: 0
+    - _UseThicknessMask: 1
+    - _WaveAmplitude: 0
+    - _WaveLength: -1
+    - _WaveStartV: 0.3
+    - _ZWrite: 0
+    - _isCover_on: 1
+    - _isUseConverBumpTex: 0
+    - _layerMiddle: 0.5
+    - _wave: 0
+    m_Colors:
+    - _BlockCommonParams: {r: 1, g: 1, b: 1, a: 1}
+    - _BlockParamsVer1: {r: 0.01, g: 0.05, b: 1, a: 1}
+    - _BlockParamsVer2: {r: 0.05, g: 0.05, b: 1, a: 1}
+    - _CameraLightColorScale: {r: 0.124288015, g: 0.15987511, b: 0.1792453, a: 1}
+    - _CameraLightOffset: {r: -0.79, g: 1.83, b: -0.04, a: 0}
+    - _Color: {r: 0.754717, g: 0.754717, b: 0.754717, a: 1}
+    - _Color1: {r: 1, g: 1, b: 1, a: 1}
+    - _Color2: {r: 1, g: 1, b: 1, a: 1}
+    - _CoverColor: {r: 0.066666655, g: 0.3762056, b: 0.6117647, a: 1}
+    - _DissolveEndPos: {r: 0, g: 1, b: 0, a: 1}
+    - _DissolveStartPos: {r: 0, g: 0, b: 0, a: 1}
+    - _DustColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DustUVScale: {r: 1, g: 1, b: 0, a: 0}
+    - _Emission: {r: 0.01735494, g: 0.2192767, b: 0.2830189, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor1: {r: 851.2258, g: 851.2258, b: 851.2258, a: 0}
+    - _EmissionColor2: {r: 0.08627451, g: 0.28039217, b: 0.29803923, a: 0}
+    - _EmissionLowQuility: {r: 0, g: 0, b: 0, a: 0}
+    - _FlowingBoostParams1: {r: 1, g: 1, b: 1, a: 1}
+    - _FlowingParams: {r: 0, g: 0, b: 0, a: 0}
+    - _LayerColor1: {r: 1, g: 1, b: 1, a: 1}
+    - _LayerColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _LayerColor3: {r: 1, g: 1, b: 1, a: 1}
+    - _LayerSplitDir: {r: 0, g: 1, b: 0, a: 0}
+    - _MainColor: {r: 1.0306774, g: 1.0306774, b: 1.0306774, a: 1}
+    - _MainTexUVAni: {r: 0, g: 0, b: 0, a: 0}
+    - _MirrorNormal: {r: 0, g: 1, b: 0, a: 0}
+    - _RimIceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SSSColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Specular: {r: 1, g: 1, b: 1, a: 1}
+    - _SplitCommonParams: {r: 1, g: 1, b: 1, a: 1}
+    - _SplitVer1Params1: {r: 6, g: 6, b: 0, a: 0}
+    - _SplitVer1Params2: {r: 16, g: 16, b: 0, a: 0}
+    - _SplitVer2Params1: {r: 19, g: 19, b: 0, a: 0}
+    - _SplitVer2Params2: {r: 27, g: 27, b: 0, a: 0}
+    - _Translucency: {r: 2, g: 3, b: 0.01, a: 0}
+    - _TwistChangeSpeed: {r: 11, g: 0, b: 0, a: 0}
+    - _WaveParams: {r: 0.3, g: 0.1, b: 0.15, a: 0}
+  m_BuildTextureStacks: []

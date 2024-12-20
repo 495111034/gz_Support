@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: mat_1002_zc_building13c
+  m_Shader: {fileID: 4800000, guid: ab0ce5c6feda3094f850b96bb1914343, type: 3}
+  m_ValidKeywords:
+  - REFLECT_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 9471f7d239de9b64fb72dbabf48245f0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CoverBumpTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CoverTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DustMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ExtendMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 3ff45bfecc24b3541949214ae4fe3870, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicTex:
+        m_Texture: {fileID: 2800000, guid: c335e0eb85a9a4548a5680f7704e3024, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MirrorReflectionTex:
+        m_Texture: {fileID: 2800000, guid: 9bf5ea29edc5e4b46a05f7fea29fe930, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BackTransNormalDistortion: 0.225
+    - _Blend_ON: 0
+    - _BumpMapScale: 1
+    - _BumpScale: 1
+    - _CUSTOM_INTERACT: 0
+    - _CameraLightMin: 0.144
+    - _CameraLightTrans: 22.8
+    - _CameraLight_IsOpening: 0
+    - _ClipAlpha: 0.001
+    - _ClipOn: 0
+    - _Color2OverlayType: 0
+    - _CoverAmount: 0.5
+    - _CoverBumpMapScale: 1
+    - _CoverFade: 0.5
+    - _CoverFade2: 10
+    - _CoverSmoothnessScale: 1
+    - _Cull: 0
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _DstBlendAlpha: 6
+    - _DustDepthShift: 0.5
+    - _DustNoiseIntensity: 0.5
+    - _DustNoiseUVScale: 1
+    - _EffectType: 0
+    - _Emission2Level: 0
+    - _EmissionEnable: 0
+    - _EmissionFade: -1
+    - _EmissionMapOn: 0
+    - _EmissionOn: 1
+    - _EmissionSpeed: 0
+    - _EmissionStart: 0
+    - _EnableNoiseTex: 0
+    - _EnableWave: 0
+    - _FadeDistanceFar: 55
+    - _FadeDistanceNear: 20
+    - _FadeON: 0
+    - _FillLight: 0
+    - _FresnelExp: 0.42
+    - _FrontTransIntensity: 0.15
+    - _FrontTransNormalDistortion: 0.2
+    - _GiDiffuse: 1
+    - _GlossMapScale: 1
+    - _GlossScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _HasEmissionMap: 0
+    - _HasExtendMap: 0
+    - _HasTranslucency: 0
+    - _HollowOn: 0
+    - _HollowRate: 0
+    - _IsDustOn: 0
+    - _IsICEOn: 0
+    - _MainAlpha: 0.805
+    - _MainTexAlphaType: 0
+    - _Metallic: 0
+    - _MetallicScale: 0.86
+    - _MirrorReflectionOn: 0
+    - _MirrorReflectionScale: 0.834
+    - _Mode: 0
+    - _NoiseFactor: 0
+    - _NoiseSpeed: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _PushRadiu: 2
+    - _PushStrength: 5
+    - _ReflectMetallic: 0.52
+    - _ReflectOn: 1
+    - _ReflectSmoothness: 0.97
+    - _RimBase: -0.59
+    - _RimIntensity: 0.3
+    - _RimPower: 0.9
+    - _SecondTexOn: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _SrcBlendAlpha: 5
+    - _TransScattering: 1
+    - _TransShadow: 0.2
+    - _Translucency: 5.2
+    - _UVSec: 0
+    - _UseRealtimeShadow: 0
+    - _UseRimThicknessMask: 0
+    - _UseThicknessMask: 1
+    - _WaveAmplitude: 0
+    - _WaveLength: 0.13
+    - _WaveStartV: 0.3
+    - _ZWrite: 1
+    - _isCover_on: 0
+    - _isUseConverBumpTex: 0
+    - _wave: 0
+    m_Colors:
+    - _CameraLightColorScale: {r: 0.087357506, g: 0.087357506, b: 0.087357506, a: 1}
+    - _CameraLightOffset: {r: 8.59, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 0.9019608}
+    - _CoverColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DustColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DustUVScale: {r: 1, g: 1, b: 0, a: 0}
+    - _Emission: {r: 0.06655122, g: 1.4863107, b: 4.237095, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor1: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionLowQuility: {r: 0, g: 1.4695697, b: 5.278032, a: 0}
+    - _MainTexUVAni: {r: 0, g: 0, b: 0, a: 0}
+    - _MirrorNormal: {r: 0, g: 1, b: 0, a: 0}
+    - _RimIceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SSSColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Specular: {r: 1, g: 1, b: 1, a: 1}
+    - _Translucency: {r: 2, g: 3, b: 0.01, a: 0}
+    - _WaveParams: {r: 0.3, g: 0.1, b: 0.15, a: 0}
+  m_BuildTextureStacks: []

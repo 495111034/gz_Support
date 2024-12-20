@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3875133170534679316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 758565983797579706}
+  - component: {fileID: -6921056230751601905}
+  m_Layer: 0
+  m_Name: prefab_1002_grass_02_WithoutLod_1002_lod
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &758565983797579706
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3875133170534679316}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-6921056230751601905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3875133170534679316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd5a1046a0ba6934faa7ecbfc7d25398, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grassPrefab: {fileID: 2659663699404316283, guid: b2ac71fa29ba9734b8eb80140f05ca1a,
+    type: 3}
+  selfPrefab: {fileID: 0}
+  ColliderScale: {x: 1.5, y: 1.5, z: 1.5}
+  cullingMaxDistance: 50
+  mergeChunkDistance: 10
+  castShadows: 0
+  receiveShadows: 1
+  layerID: 0
+  Prop:
+    RandomRot: 1
+    RandomRotMin: -360
+    RandomRotMax: 360
+    BrushRadius: 1
+    Density: {x: 1, y: 1}
+    OnNormal: 1
+    MoveWithObject: 0
+    StartRadi: 0.1
+    StartLength: 1
+    MinRadi: 0.2
+    MinAvoidDist: 0.1
+    Interactive: 0
+  EndScale: 1
+  RayCastDist: 10
+  HitPos: {x: 0, y: 0, z: 0}
+  HitNorm: {x: 0, y: 0, z: 0}
+  PaintOnObj: {fileID: 0}
+  ChunkCollider: {fileID: 0}
+  childColors: []

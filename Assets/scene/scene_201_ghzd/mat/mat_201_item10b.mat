@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: mat_201_item10b
+  m_Shader: {fileID: 4800000, guid: ab0ce5c6feda3094f850b96bb1914343, type: 3}
+  m_ValidKeywords:
+  - _CameraLight_IsOpening
+  m_InvalidKeywords:
+  - _DETAIL_MULX2
+  - _EMISSION
+  - _METALLICGLOSSMAP
+  - _NORMALMAP
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 31bad013ae39675439774b52d2352de7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CoverBumpTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CoverTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 2800000, guid: 5544e1e318343ce47892c3693ad2cedc, type: 3}
+        m_Scale: {x: 30, y: 30}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 2800000, guid: afa35cb683750f9498713558fc682b82, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DustMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: d5880c1752e4c2648ad0f60b536c993e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ExtendMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 5a8aae0b12dc96943b5d729a6dc2200d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: 87d84d16ffe3c1c48b6b18fcf4c2cb02, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicTex:
+        m_Texture: {fileID: 2800000, guid: b266f02ada4dcab4c8b709ac549d818f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MirrorReflectionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 2800000, guid: b266f02ada4dcab4c8b709ac549d818f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BackTransNormalDistortion: 0.508
+    - _Blend_ON: 0
+    - _BumpMapScale: 3.5
+    - _BumpScale: 1
+    - _CameraLightMin: 0.099
+    - _CameraLightTrans: 5
+    - _CameraLight_IsOpening: 1
+    - _ClipAlpha: 0.1
+    - _ClipOn: 0
+    - _CoverAmount: 0.5
+    - _CoverBumpMapScale: 1
+    - _CoverFade: 0.5
+    - _CoverFade2: 10
+    - _CoverSmoothnessScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _DustDepthShift: 0.5
+    - _DustNoiseIntensity: 0.5
+    - _DustNoiseUVScale: 1
+    - _EmissionMapOn: 0
+    - _EmissionOn: 0
+    - _EmissionSpeed: 1
+    - _EmissionStart: 0
+    - _FadeDistanceFar: 55
+    - _FadeDistanceNear: 20
+    - _FadeON: 0
+    - _FresnelExp: 1
+    - _FrontTransIntensity: 0.403
+    - _FrontTransNormalDistortion: 0.64
+    - _GiDiffuse: 1
+    - _GlossMapScale: 0.7
+    - _GlossScale: 1.09
+    - _Glossiness: 0.66
+    - _GlossyReflections: 1
+    - _HasExtendMap: 0
+    - _HollowOn: 0
+    - _HollowRate: 0
+    - _IsDustOn: 0
+    - _IsICEOn: 0
+    - _MainTexAlphaType: 1
+    - _Metallic: 0.283
+    - _MetallicScale: 0.48
+    - _MirrorReflectionOn: 0
+    - _MirrorReflectionScale: 1
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _ReflectMetallic: 1
+    - _ReflectOn: 0
+    - _ReflectSmoothness: 1
+    - _RimBase: -1.04
+    - _RimIntensity: 0.24
+    - _RimPower: 6.88
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TransScattering: 11
+    - _TransShadow: 0.555
+    - _Translucency: 27.1
+    - _UVSec: 0
+    - _UseRealtimeShadow: 0
+    - _UseRimThicknessMask: 0
+    - _UseThicknessMask: 0
+    - _ZWrite: 1
+    - _isCover_on: 0
+    - _isUseConverBumpTex: 0
+    m_Colors:
+    - _CameraLightColorScale: {r: 0.99429095, g: 1.2720718, b: 1.6340287, a: 1}
+    - _CameraLightOffset: {r: 0, g: 4.3, b: -0.42, a: 0}
+    - _Color: {r: 0.5066305, g: 0.51622844, b: 0.5188679, a: 1}
+    - _CoverColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DustColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DustUVScale: {r: 1, g: 1, b: 0, a: 0}
+    - _Emission: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissionColor: {r: 1.1641439, g: 1.3347502, b: 1.5441076, a: 1}
+    - _EmissionLowQuility: {r: 0, g: 0, b: 0, a: 0}
+    - _MirrorNormal: {r: 0, g: 1, b: 0, a: 0}
+    - _RimIceColor: {r: 0, g: 15.644224, b: 6.2223916, a: 1}
+    - _SSSColor: {r: 0.36547706, g: 0.37710288, b: 0.4056604, a: 1}
+    - _Specular: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
